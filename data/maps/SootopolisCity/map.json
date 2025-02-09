@@ -12,7 +12,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [],
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
@@ -168,19 +168,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SootopolisCity_EventScript_Maniac",
-      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
-      "x": 14,
-      "y": 42,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SootopolisCity_EventScript_Girl",
       "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS"
     },
     {
@@ -340,9 +327,32 @@
       "elevation": 0,
       "dest_map": "MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_1F",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_VICTORY_CAVERN",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 15,
+      "y": 42,
+      "elevation": 0,
+      "dest_map": "MAP_FAKE_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 43,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_TRUCK",
+      "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

@@ -1152,3 +1152,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/follower.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/Victory_Cavern/scripts.inc"
+
+	.include "data/maps/Fake_House/scripts.inc"
