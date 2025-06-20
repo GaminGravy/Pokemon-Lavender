@@ -39,3 +39,11 @@ GraniteCave_1F_Text_ExplainFlash:
 	.string "from DEWFORD's POKéMON GYM.$"
 
 `
+script GraniteCave_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Zubat, Makuhita,
+	Cleffa, Clefairy, Cubone, Carbink, Cufant, Klink,
+	Glimmet, Salandit, Alolan Geodude, Cyndaquil.
+    CATCH EM ALL."))
+    releaseall
+    }

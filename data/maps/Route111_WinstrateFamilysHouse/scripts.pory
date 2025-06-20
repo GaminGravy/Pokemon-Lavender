@@ -24,6 +24,9 @@ Route111_WinstrateFamilysHouse_EventScript_Victoria::
 	giveitem ITEM_MACHO_BRACE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_MACHO_BRACE
+	giveitem ITEM_LEFTOVERS
+	giveitem ITEM_SHINY_STONE
+	giveitem ITEM_LUCKY_EGG
 	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
 	end
 

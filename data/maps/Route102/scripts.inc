@@ -218,3 +218,20 @@ Route102_Text_RouteSignPetalburg:
 	.string "ROUTE 102\n"
 # 110 "data/maps/Route102/scripts.pory"
 	.string "{LEFT_ARROW} PETALBURG CITY$"
+
+Route102_EventScript_NewSign::
+# 113 "data/maps/Route102/scripts.pory"
+	lockall
+# 114 "data/maps/Route102/scripts.pory"
+	msgbox Route102_EventScript_NewSign_Text_0
+# 118 "data/maps/Route102/scripts.pory"
+	releaseall
+	return
+
+
+Route102_EventScript_NewSign_Text_0:
+# 114 "data/maps/Route102/scripts.pory"
+	.string "Encounters: Patrat, Scatterbug,\n"
+	.string "Machop, Pansear, Spearow, Lotad,\l"
+	.string "Wattrel, Shinx, Sentret, Ralts, Seedot,\l"
+	.string "Chikorita. CATCH EM ALL.$"

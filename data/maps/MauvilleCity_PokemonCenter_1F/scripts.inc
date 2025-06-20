@@ -110,3 +110,25 @@ MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
 	.string "I don't know what it's about, but it\n"
 # 56 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "sounds fun. I'll go check it out!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_3::
+# 60 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	trainerbattle_single TRAINER_EXP_3, RustboroCity_PokemonCenter_EXP_TRAINER_3_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_3_Outro
+# 61 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	msgbox RustboroCity_PokemonCenter_EXP_TRAINER_3_PostBattle, MSGBOX_AUTOCLOSE
+# 62 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	cleartrainerflag TRAINER_EXP_3
+	end
+
+
+RustboroCity_PokemonCenter_EXP_TRAINER_3_Intro::
+# 66 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	.string "Fight me for EXP!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_3_Outro::
+# 70 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	.string "Dont worry you can't overlevel!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_3_PostBattle::
+# 74 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	.string "You can always rebattle me!$"

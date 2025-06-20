@@ -1172,3 +1172,11 @@ Route104_Text_BrendanPostBattle:
 	.string "Like MR. BRINEY, it's important to\n"
 	.string "become friends with your POKéMON.$"
 `
+script Route104_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Lechonk, Lillipup,
+	Nickit, Wooloo, Starly, Nymble, Tarountula, Tailow,
+	Houndour, Abra, Sunkern, Totodile.
+    CATCH EM ALL."))
+    releaseall
+    }

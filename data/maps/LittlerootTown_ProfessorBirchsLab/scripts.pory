@@ -528,6 +528,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
 	setvar VAR_OLDALE_TOWN_STATE, 1
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 4
 	setvar VAR_LITTLEROOT_TOWN_STATE, 3
+	call (LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex)
 	releaseall
 	end
 
@@ -702,6 +703,13 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "Oh, yes. As thanks for rescuing me,\n"
 	.string "I'd like you to have the POKéMON you\l"
 	.string "used earlier.\p"
+	.string "I would also like you to have this\n"
+	.string "Victini to the left of you.\p"
+	.string "Victini is a Pokemon that teams Aqua\n"
+	.string "and Magma are terrified of\n"
+	.string "I'm not sure why though.\p"
+	.string "I would trust my kid with the task\n"
+	.string "but they just started smoking.\p"
 	.string "{PLAYER} received the {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
@@ -764,6 +772,7 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. BIRCH: Countless POKéMON\n"
 	.string "await you!\p"
+	.string "CATCH ALL POKEMON.\p"
 	.string "Argh, I'm getting the itch to get out\n"
 	.string "and do fieldwork again!$"
 
@@ -1001,3 +1010,36 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 `
+script LittlerootTown_ProfessorBirchsLab_EventScript_VictiniBall{
+	lockall
+	showmonpic(SPECIES_VICTINI, 10,3)
+	msgbox("Do you want to recieve this Victini", MSGBOX_YESNO)
+	if(var(VAR_RESULT) == YES){
+		givemon(SPECIES_VICTINI, 1, ITEM_POKE_BALL)
+		if(var(VAR_RESULT) ==MON_GIVEN_TO_PARTY){
+			playfanfare(MUS_OBTAIN_ITEM)
+			msgbox("Recieved Victini")
+			removeobject(7)
+			setflag(FLAG_UNUSED_0x020)
+			hidemonpic
+		}
+		elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+			playfanfare(MUS_OBTAIN_ITEM)
+			msgbox("Recieved Victni")
+			removeobject(7)
+			setflag(FLAG_UNUSED_0x020)
+		}
+		else{
+			hidemonpic
+			msgbox("No More Room")
+		}
+	}
+	else{
+		hidemonpic
+		msgbox("Please take the Pokemon its vital.")
+		
+	}
+	waitmessage
+	releaseall
+	end
+}

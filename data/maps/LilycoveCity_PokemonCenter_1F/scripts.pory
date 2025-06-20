@@ -68,3 +68,21 @@ LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
 	.string "I haven't seen them around recently.$"
 
 `
+script RustboroCity_PokemonCenter_EXP_TRAINER_5{
+	trainerbattle_single(TRAINER_EXP_5, RustboroCity_PokemonCenter_EXP_TRAINER_5_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_5_Outro)
+	msgbox (RustboroCity_PokemonCenter_EXP_TRAINER_5_PostBattle, MSGBOX_AUTOCLOSE)
+	cleartrainerflag(TRAINER_EXP_5)
+	end
+}
+
+ text RustboroCity_PokemonCenter_EXP_TRAINER_5_Intro{
+	"Fight me for EXP!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_5_Outro{
+	"Dont worry you can't overlevel!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_5_PostBattle{
+	"You can always rebattle me!"
+}

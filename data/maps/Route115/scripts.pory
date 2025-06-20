@@ -145,3 +145,11 @@ Route115_Text_MeteorFallsSign:
 	.string "FALLARBOR TOWN THROUGH HERE$"
 
 `
+script Route115_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Applin, Smoliv,
+	Foongus, Petilil, Sigilyph, Delibird, Natu,
+	Jigglypuff, Doduo, Pancham, Chespin.
+    CATCH EM ALL."))
+    releaseall
+    }

@@ -288,3 +288,20 @@ Route115_Text_MeteorFallsSign:
 	.string "METEOR FALLS\n"
 # 145 "data/maps/Route115/scripts.pory"
 	.string "FALLARBOR TOWN THROUGH HERE$"
+
+Route115_EventScript_NewSign::
+# 149 "data/maps/Route115/scripts.pory"
+	lockall
+# 150 "data/maps/Route115/scripts.pory"
+	msgbox Route115_EventScript_NewSign_Text_0
+# 154 "data/maps/Route115/scripts.pory"
+	releaseall
+	return
+
+
+Route115_EventScript_NewSign_Text_0:
+# 150 "data/maps/Route115/scripts.pory"
+	.string "Encounters: Applin, Smoliv, Foongus,\n"
+	.string "Petilil, Sigilyph, Delibird, Natu,\l"
+	.string "Jigglypuff, Doduo, Pancham, Chespin.\l"
+	.string "CATCH EM ALL.$"

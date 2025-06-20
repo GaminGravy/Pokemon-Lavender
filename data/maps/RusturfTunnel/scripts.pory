@@ -533,3 +533,11 @@ RusturfTunnel_Text_MikePostBattle:
 	.string "There's a feel-good story!$"
 
 `
+script RusturfTunnel_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Whismur, Minior,
+	Klawf, Toedscool, Paldean Wooper, Diglett,
+	Alolan Diglett, Alolan Geodude, Geodude, Chimchar.
+    CATCH EM ALL."))
+    releaseall
+    }

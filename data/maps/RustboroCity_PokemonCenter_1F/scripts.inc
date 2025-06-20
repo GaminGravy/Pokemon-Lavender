@@ -96,3 +96,25 @@ RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 	.string "I used it to teach my POKéMON how to\n"
 # 49 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
 	.string "CUT down skinny trees.$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER::
+# 53 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
+	trainerbattle_single TRAINER_EXP_1, RustboroCity_PokemonCenter_EXP_TRAINER_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_Outro
+# 54 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
+	msgbox RustboroCity_PokemonCenter_EXP_TRAINER_PostBattle, MSGBOX_AUTOCLOSE
+# 55 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
+	cleartrainerflag TRAINER_EXP_1
+	end
+
+
+RustboroCity_PokemonCenter_EXP_TRAINER_Intro::
+# 59 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
+	.string "Fight me for EXP!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_Outro::
+# 63 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
+	.string "Dont worry you can't overlevel!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_PostBattle::
+# 67 "data/maps/RustboroCity_PokemonCenter_1F/scripts.pory"
+	.string "You can always rebattle me!$"

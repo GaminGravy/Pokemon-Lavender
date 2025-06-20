@@ -613,9 +613,30 @@ Route101_EventScript_NewSign::
 	return
 
 
+TRAINER_TEAM_AQUA_GRUNT_ROUTE101::
+# 315 "data/maps/Route101/scripts.pory"
+	trainerbattle_single TRAINER_GRUNT_ROUTE101, TRAINER_GRUNT_ROUTE101_Intro, TRAINER_GRUNT_ROUTE101_Outro
+# 316 "data/maps/Route101/scripts.pory"
+	msgbox TRAINER_GRUNT_ROUTE101_PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
 Route101_EventScript_NewSign_Text_0:
 # 307 "data/maps/Route101/scripts.pory"
 	.string "Encounters: Wurmple, Poochyena,\n"
 	.string "Pidgey, Purrloin, Pidove, Grubbin,\l"
-	.string "Fletchling, Bunnelby, Zigzagoon,\l"
-	.string "Charmander. CATCH EM ALL.$"
+	.string "Fletchling, Bunnelby, Pansage,\l"
+	.string "Zigzagoon, Charmander. CATCH EM ALL.$"
+
+TRAINER_GRUNT_ROUTE101_Intro::
+# 320 "data/maps/Route101/scripts.pory"
+	.string "Team Aqua needs that Victini hand it over!$"
+
+TRAINER_GRUNT_ROUTE101_Outro::
+# 324 "data/maps/Route101/scripts.pory"
+	.string "We will keep trying to take his power$"
+
+TRAINER_GRUNT_ROUTE101_PostBattle::
+# 328 "data/maps/Route101/scripts.pory"
+	.string "Archie's gonna feed me to the\p"
+	.string "Sharpedos for sure...$"

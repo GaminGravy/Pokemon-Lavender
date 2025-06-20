@@ -476,3 +476,11 @@ PetalburgWoods_Text_TrainerTipsPP:
 	.string "taken to a POKéMON CENTER.$"
 
 `
+script Petalburg_Woods_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Caterpie, Weedle,
+	Shroomish, Sewaddle, Ledyba, Paras, Pikachu, Pineco,
+	Yanma, Venonat, Slakoth, Bulbasaur.
+    CATCH EM ALL."))
+    releaseall
+    }

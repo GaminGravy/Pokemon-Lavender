@@ -402,3 +402,20 @@ Route114_Text_FossilManiacsHouseSign:
 Route114_Text_LanettesHouse:
 # 202 "data/maps/Route114/scripts.pory"
 	.string "LANETTE'S HOUSE$"
+
+Route114_EventScript_NewSign::
+# 206 "data/maps/Route114/scripts.pory"
+	lockall
+# 207 "data/maps/Route114/scripts.pory"
+	msgbox Route114_EventScript_NewSign_Text_0
+# 211 "data/maps/Route114/scripts.pory"
+	releaseall
+	return
+
+
+Route114_EventScript_NewSign_Text_0:
+# 207 "data/maps/Route114/scripts.pory"
+	.string "Encounters: Swablu, Hippopotas, Rellor,\n"
+	.string "Morelull, Combee, Croagunk, Snover,\l"
+	.string "Skiddo, Zangoose, Seviper, Deino,\l"
+	.string "Rowlet. CATCH EM ALL.$"

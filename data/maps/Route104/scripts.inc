@@ -2344,3 +2344,20 @@ Route104_Text_BrendanPostBattle:
 	.string "Like MR. BRINEY, it's important to\n"
 # 1173 "data/maps/Route104/scripts.pory"
 	.string "become friends with your POKéMON.$"
+
+Route104_EventScript_NewSign::
+# 1176 "data/maps/Route104/scripts.pory"
+	lockall
+# 1177 "data/maps/Route104/scripts.pory"
+	msgbox Route104_EventScript_NewSign_Text_0
+# 1181 "data/maps/Route104/scripts.pory"
+	releaseall
+	return
+
+
+Route104_EventScript_NewSign_Text_0:
+# 1177 "data/maps/Route104/scripts.pory"
+	.string "Encounters: Lechonk, Lillipup, Nickit,\n"
+	.string "Wooloo, Starly, Nymble, Tarountula,\l"
+	.string "Tailow, Houndour, Abra, Sunkern,\l"
+	.string "Totodile. CATCH EM ALL.$"

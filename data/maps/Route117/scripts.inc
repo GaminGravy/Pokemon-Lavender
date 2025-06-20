@@ -486,3 +486,20 @@ Route117_Text_DayCareSign:
 	.string "POKéMON DAY CARE\n"
 # 244 "data/maps/Route117/scripts.pory"
 	.string "“Let us raise your POKéMON.”$"
+
+Route117_EventScript_NewSign::
+# 247 "data/maps/Route117/scripts.pory"
+	lockall
+# 248 "data/maps/Route117/scripts.pory"
+	msgbox Route117_EventScript_NewSign_Text_0
+# 252 "data/maps/Route117/scripts.pory"
+	releaseall
+	return
+
+
+Route117_EventScript_NewSign_Text_0:
+# 248 "data/maps/Route117/scripts.pory"
+	.string "Encounters: Paras, Eevee, Exeggcute,\n"
+	.string "Hoppip, Marill, Fomantis, Illumise,\l"
+	.string "Cherubi, Burmy, Deerling, Volbeat,\l"
+	.string "Turtwig. CATCH EM ALL.$"

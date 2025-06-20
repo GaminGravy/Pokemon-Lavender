@@ -330,3 +330,21 @@ Route113_Text_GlassWorkshopSign:
 	.string "GLASS WORKSHOP\n"
 # 166 "data/maps/Route113/scripts.pory"
 	.string "“Turning Volcanic Ash into Glass Items”$"
+
+Route113_EventScript_NewSign::
+# 170 "data/maps/Route113/scripts.pory"
+	lockall
+# 171 "data/maps/Route113/scripts.pory"
+	msgbox Route113_EventScript_NewSign_Text_0
+# 175 "data/maps/Route113/scripts.pory"
+	releaseall
+	return
+
+
+Route113_EventScript_NewSign_Text_0:
+# 171 "data/maps/Route113/scripts.pory"
+	.string "Encounters: Spinda, Alolan Sandshrew,\n"
+	.string "Galarian Meowth, Rufflet, Ferroseed,\l"
+	.string "Minccino, Hisuian Zorua, Oricorio Baile,\l"
+	.string "Skarmory, Riolu, Slugma, Tepig CATCH EM\l"
+	.string "ALL.$"

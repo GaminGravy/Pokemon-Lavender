@@ -1456,3 +1456,20 @@ Route111_Text_TrainerHillSign:
 	.string "“Scale the heights, you hot-blooded\n"
 # 729 "data/maps/Route111/scripts.pory"
 	.string "TRAINERS!”$"
+
+Route111_EventScript_NewSign::
+# 733 "data/maps/Route111/scripts.pory"
+	lockall
+# 734 "data/maps/Route111/scripts.pory"
+	msgbox Route111_EventScript_NewSign_Text_0
+# 738 "data/maps/Route111/scripts.pory"
+	releaseall
+	return
+
+
+Route111_EventScript_NewSign_Text_0:
+# 734 "data/maps/Route111/scripts.pory"
+	.string "Encounters: Sandshrew, Trapinch,\n"
+	.string "Capsakid, Maractus, Baltoy, Larvesta,\l"
+	.string "Phanpy, Darumaka, Heatmor, Cacnea,\l"
+	.string "Scorbunny. CATCH EM ALL.$"

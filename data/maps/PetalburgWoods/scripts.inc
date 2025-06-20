@@ -950,3 +950,20 @@ PetalburgWoods_Text_TrainerTipsPP:
 	.string "If a POKéMON runs out of PP, it must be\n"
 # 476 "data/maps/PetalburgWoods/scripts.pory"
 	.string "taken to a POKéMON CENTER.$"
+
+Petalburg_Woods_EventScript_NewSign::
+# 480 "data/maps/PetalburgWoods/scripts.pory"
+	lockall
+# 481 "data/maps/PetalburgWoods/scripts.pory"
+	msgbox Petalburg_Woods_EventScript_NewSign_Text_0
+# 485 "data/maps/PetalburgWoods/scripts.pory"
+	releaseall
+	return
+
+
+Petalburg_Woods_EventScript_NewSign_Text_0:
+# 481 "data/maps/PetalburgWoods/scripts.pory"
+	.string "Encounters: Caterpie, Weedle,\n"
+	.string "Shroomish, Sewaddle, Ledyba, Paras,\l"
+	.string "Pikachu, Pineco, Yanma, Venonat,\l"
+	.string "Slakoth, Bulbasaur. CATCH EM ALL.$"

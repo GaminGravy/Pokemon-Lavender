@@ -76,3 +76,20 @@ GraniteCave_1F_Text_ExplainFlash:
 	.string "But, to use it, you need the GYM BADGE\n"
 # 39 "data/maps/GraniteCave_1F/scripts.pory"
 	.string "from DEWFORD's POKéMON GYM.$"
+
+GraniteCave_EventScript_NewSign::
+# 43 "data/maps/GraniteCave_1F/scripts.pory"
+	lockall
+# 44 "data/maps/GraniteCave_1F/scripts.pory"
+	msgbox GraniteCave_EventScript_NewSign_Text_0
+# 48 "data/maps/GraniteCave_1F/scripts.pory"
+	releaseall
+	return
+
+
+GraniteCave_EventScript_NewSign_Text_0:
+# 44 "data/maps/GraniteCave_1F/scripts.pory"
+	.string "Encounters: Zubat, Makuhita, Cleffa,\n"
+	.string "Clefairy, Cubone, Carbink, Cufant, Klink,\l"
+	.string "Glimmet, Salandit, Alolan Geodude,\l"
+	.string "Cyndaquil. CATCH EM ALL.$"

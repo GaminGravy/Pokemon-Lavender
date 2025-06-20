@@ -56,3 +56,21 @@ MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
 	.string "sounds fun. I'll go check it out!$"
 
 `
+script RustboroCity_PokemonCenter_EXP_TRAINER_3{
+	trainerbattle_single(TRAINER_EXP_3, RustboroCity_PokemonCenter_EXP_TRAINER_3_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_3_Outro)
+	msgbox (RustboroCity_PokemonCenter_EXP_TRAINER_3_PostBattle, MSGBOX_AUTOCLOSE)
+	cleartrainerflag(TRAINER_EXP_3)
+	end
+}
+
+ text RustboroCity_PokemonCenter_EXP_TRAINER_3_Intro{
+	"Fight me for EXP!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_3_Outro{
+	"Dont worry you can't overlevel!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_3_PostBattle{
+	"You can always rebattle me!"
+}

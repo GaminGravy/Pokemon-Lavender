@@ -306,7 +306,26 @@ script Route101_EventScript_NewSign {
  	lockall
     msgbox(format("Encounters: Wurmple, Poochyena, Pidgey,
     Purrloin, Pidove, Grubbin, Fletchling,
-    Bunnelby, Zigzagoon, Charmander. 
+    Bunnelby, Pansage, Zigzagoon, Charmander. 
     CATCH EM ALL."))
     releaseall
     }
+
+script TRAINER_TEAM_AQUA_GRUNT_ROUTE101{
+	trainerbattle_single(TRAINER_GRUNT_ROUTE101, TRAINER_GRUNT_ROUTE101_Intro, TRAINER_GRUNT_ROUTE101_Outro)
+	msgbox (TRAINER_GRUNT_ROUTE101_PostBattle, MSGBOX_AUTOCLOSE)
+	end
+}
+
+text TRAINER_GRUNT_ROUTE101_Intro{
+	"Team Aqua needs that Victini hand it over!"
+}
+
+text TRAINER_GRUNT_ROUTE101_Outro{
+	"We will keep trying to take his power"
+}
+
+text TRAINER_GRUNT_ROUTE101_PostBattle{
+	"Archie's gonna feed me to the\p"
+	"Sharpedos for sure..."
+}

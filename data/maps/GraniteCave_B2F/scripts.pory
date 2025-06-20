@@ -3,3 +3,11 @@ GraniteCave_B2F_MapScripts::
 	.byte 0
 
 `
+script GraniteCave_B2F_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Zubat, Aron,
+	Nosepass, Abra, Larvitar, Sableye,
+	Dunsparce, Mawile, Cyndaquil.
+    CATCH EM ALL."))
+    releaseall
+    }

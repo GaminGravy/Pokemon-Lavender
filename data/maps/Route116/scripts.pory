@@ -473,3 +473,11 @@ Route116_Text_TrainerTipsBagHasPockets:
 	.string "a BAG of their own.$"
 
 `
+script Route116_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Surskit, Stunky, Nincada
+	Abra, Exeggcute, Toxel, Togepi, Tadbulb, Ponyta, Beldum, Skitty,
+	Grookey.
+    CATCH EM ALL."))
+    releaseall
+    }

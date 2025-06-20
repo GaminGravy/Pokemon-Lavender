@@ -994,3 +994,11 @@ Route110_Text_KeepAnEyeOutForRival:
 	.string "See you again, {PLAYER}{KUN}!$"
 
 `
+script Route110_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Morpeko, Electrike,
+	Gulpin, Magnemite, Minun, Plusle, Oddish, Voltorb,
+	Hisuian Voltorb, Pichu, Elekid, Snivy.
+    CATCH EM ALL."))
+    releaseall
+    }

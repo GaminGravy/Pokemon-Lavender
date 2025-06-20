@@ -1986,3 +1986,20 @@ Route110_Text_KeepAnEyeOutForRival:
 	.string "Well, I had better get going.\n"
 # 994 "data/maps/Route110/scripts.pory"
 	.string "See you again, {PLAYER}{KUN}!$"
+
+Route110_EventScript_NewSign::
+# 998 "data/maps/Route110/scripts.pory"
+	lockall
+# 999 "data/maps/Route110/scripts.pory"
+	msgbox Route110_EventScript_NewSign_Text_0
+# 1003 "data/maps/Route110/scripts.pory"
+	releaseall
+	return
+
+
+Route110_EventScript_NewSign_Text_0:
+# 999 "data/maps/Route110/scripts.pory"
+	.string "Encounters: Morpeko, Electrike, Gulpin,\n"
+	.string "Magnemite, Minun, Plusle, Oddish,\l"
+	.string "Voltorb, Hisuian Voltorb, Pichu, Elekid,\l"
+	.string "Snivy. CATCH EM ALL.$"

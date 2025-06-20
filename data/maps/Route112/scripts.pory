@@ -145,3 +145,11 @@ Route112_Text_RouteSignLavaridge:
 	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
 
 `
+script Route112_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Yamask, Galarian Yamask,
+	Alolan Vulpix, Growlithe, Baltoy, Hisuian Growlithe, Stunfisk, Magmar,
+	Galarian Stunfisk, Magby, Sizzlipede, Gible, Fuecoco
+    CATCH EM ALL."))
+    releaseall
+    }

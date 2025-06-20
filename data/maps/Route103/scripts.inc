@@ -708,3 +708,20 @@ Route103_Text_RouteSign:
 	.string "ROUTE 103\n"
 # 355 "data/maps/Route103/scripts.pory"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
+
+Route103_EventScript_NewSign::
+# 359 "data/maps/Route103/scripts.pory"
+	lockall
+# 360 "data/maps/Route103/scripts.pory"
+	msgbox Route103_EventScript_NewSign_Text_0
+# 364 "data/maps/Route103/scripts.pory"
+	releaseall
+	return
+
+
+Route103_EventScript_NewSign_Text_0:
+# 360 "data/maps/Route103/scripts.pory"
+	.string "Encounters: Pikipek, Bidoof, Cottonee,\n"
+	.string "Rookidee, Wingull, Hoothoot, Venipede,\l"
+	.string "Yungoos, Panpour, Squirtle. CATCH EM\l"
+	.string "ALL.$"

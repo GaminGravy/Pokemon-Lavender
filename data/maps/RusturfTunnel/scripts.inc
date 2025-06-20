@@ -1064,3 +1064,20 @@ RusturfTunnel_Text_MikePostBattle:
 	.string "protect POKéMON, right?\l"
 # 533 "data/maps/RusturfTunnel/scripts.pory"
 	.string "There's a feel-good story!$"
+
+RusturfTunnel_EventScript_NewSign::
+# 537 "data/maps/RusturfTunnel/scripts.pory"
+	lockall
+# 538 "data/maps/RusturfTunnel/scripts.pory"
+	msgbox RusturfTunnel_EventScript_NewSign_Text_0
+# 542 "data/maps/RusturfTunnel/scripts.pory"
+	releaseall
+	return
+
+
+RusturfTunnel_EventScript_NewSign_Text_0:
+# 538 "data/maps/RusturfTunnel/scripts.pory"
+	.string "Encounters: Whismur, Minior, Klawf,\n"
+	.string "Toedscool, Paldean Wooper, Diglett,\l"
+	.string "Alolan Diglett, Alolan Geodude, Geodude,\l"
+	.string "Chimchar. CATCH EM ALL.$"

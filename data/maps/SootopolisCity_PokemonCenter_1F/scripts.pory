@@ -72,3 +72,21 @@ SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
 	.string "Why are they going wild this way?$"
 
 `
+script RustboroCity_PokemonCenter_EXP_TRAINER_6{
+	trainerbattle_single(TRAINER_EXP_6, RustboroCity_PokemonCenter_EXP_TRAINER_6_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_6_Outro)
+	msgbox (RustboroCity_PokemonCenter_EXP_TRAINER_6_PostBattle, MSGBOX_AUTOCLOSE)
+	cleartrainerflag(TRAINER_EXP_6)
+	end
+}
+
+ text RustboroCity_PokemonCenter_EXP_TRAINER_6_Intro{
+	"Fight me for EXP!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_6_Outro{
+	"Dont worry you can't overlevel!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_6_PostBattle{
+	"You can always rebattle me!"
+}

@@ -26,6 +26,10 @@ gText_Birch_MainSpeech::
 	.string "To unravel POKéMON mysteries,\n"
 	.string "I've been undertaking research.\l"
 	.string "That's what I do.\p"
+	.string "This region contains every\n"
+	.string "POKéMON. As well as new ways to\p"
+	.string "evolve POKéMON.\p"
+	.string "CATCH THEM ALL...\p"
 	.string "$"
 
 gText_Birch_AndYouAre::

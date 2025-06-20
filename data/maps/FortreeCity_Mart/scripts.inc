@@ -51,60 +51,84 @@ FortreeCity_Mart_Pokemart:
 # 26 "data/maps/FortreeCity_Mart/scripts.pory"
 	.2byte ITEM_WOOD_MAIL
 # 27 "data/maps/FortreeCity_Mart/scripts.pory"
-	pokemartlistend
+	.2byte ITEM_CALCIUM
 # 28 "data/maps/FortreeCity_Mart/scripts.pory"
-
+	.2byte ITEM_HP_UP
 # 29 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_Mart_EventScript_Woman::
+	.2byte ITEM_PROTEIN
 # 30 "data/maps/FortreeCity_Mart/scripts.pory"
-	msgbox FortreeCity_Mart_Text_SuperRepelBetter, MSGBOX_NPC
+	.2byte ITEM_CARBOS
 # 31 "data/maps/FortreeCity_Mart/scripts.pory"
-	end
+	.2byte ITEM_IRON
 # 32 "data/maps/FortreeCity_Mart/scripts.pory"
-
+	.2byte ITEM_ZINC
 # 33 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_Mart_EventScript_Girl::
+	.2byte ITEM_POMEG_BERRY
 # 34 "data/maps/FortreeCity_Mart/scripts.pory"
-	msgbox FortreeCity_Mart_Text_StockUpOnItems, MSGBOX_NPC
+	.2byte ITEM_KELPSY_BERRY
 # 35 "data/maps/FortreeCity_Mart/scripts.pory"
-	end
+	.2byte ITEM_QUALOT_BERRY
 # 36 "data/maps/FortreeCity_Mart/scripts.pory"
-
+	.2byte ITEM_HONDEW_BERRY
 # 37 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_Mart_EventScript_Boy::
+	.2byte ITEM_GREPA_BERRY
 # 38 "data/maps/FortreeCity_Mart/scripts.pory"
-	msgbox FortreeCity_Mart_Text_RareCandyMakesMonGrow, MSGBOX_NPC
+	.2byte ITEM_TAMATO_BERRY
 # 39 "data/maps/FortreeCity_Mart/scripts.pory"
-	end
+	pokemartlistend
 # 40 "data/maps/FortreeCity_Mart/scripts.pory"
 
 # 41 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_Mart_Text_SuperRepelBetter:
+FortreeCity_Mart_EventScript_Woman::
 # 42 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "SUPER REPEL lasts a long time,\n"
+	msgbox FortreeCity_Mart_Text_SuperRepelBetter, MSGBOX_NPC
 # 43 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "and it gets the job done.\p"
+	end
 # 44 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "It's much better than an ordinary\n"
-# 45 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "REPEL.$"
-# 46 "data/maps/FortreeCity_Mart/scripts.pory"
 
+# 45 "data/maps/FortreeCity_Mart/scripts.pory"
+FortreeCity_Mart_EventScript_Girl::
+# 46 "data/maps/FortreeCity_Mart/scripts.pory"
+	msgbox FortreeCity_Mart_Text_StockUpOnItems, MSGBOX_NPC
 # 47 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_Mart_Text_StockUpOnItems:
+	end
 # 48 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "I always stock up on more items than\n"
+
 # 49 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "I'm sure I'll need.\p"
+FortreeCity_Mart_EventScript_Boy::
 # 50 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "You never know what might happen.\n"
+	msgbox FortreeCity_Mart_Text_RareCandyMakesMonGrow, MSGBOX_NPC
 # 51 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "Better to be safe than sorry!$"
+	end
 # 52 "data/maps/FortreeCity_Mart/scripts.pory"
 
 # 53 "data/maps/FortreeCity_Mart/scripts.pory"
-FortreeCity_Mart_Text_RareCandyMakesMonGrow:
+FortreeCity_Mart_Text_SuperRepelBetter:
 # 54 "data/maps/FortreeCity_Mart/scripts.pory"
-	.string "A RARE CANDY makes a POKéMON grow\n"
+	.string "SUPER REPEL lasts a long time,\n"
 # 55 "data/maps/FortreeCity_Mart/scripts.pory"
+	.string "and it gets the job done.\p"
+# 56 "data/maps/FortreeCity_Mart/scripts.pory"
+	.string "It's much better than an ordinary\n"
+# 57 "data/maps/FortreeCity_Mart/scripts.pory"
+	.string "REPEL.$"
+# 58 "data/maps/FortreeCity_Mart/scripts.pory"
+
+# 59 "data/maps/FortreeCity_Mart/scripts.pory"
+FortreeCity_Mart_Text_StockUpOnItems:
+# 60 "data/maps/FortreeCity_Mart/scripts.pory"
+	.string "I always stock up on more items than\n"
+# 61 "data/maps/FortreeCity_Mart/scripts.pory"
+	.string "I'm sure I'll need.\p"
+# 62 "data/maps/FortreeCity_Mart/scripts.pory"
+	.string "You never know what might happen.\n"
+# 63 "data/maps/FortreeCity_Mart/scripts.pory"
+	.string "Better to be safe than sorry!$"
+# 64 "data/maps/FortreeCity_Mart/scripts.pory"
+
+# 65 "data/maps/FortreeCity_Mart/scripts.pory"
+FortreeCity_Mart_Text_RareCandyMakesMonGrow:
+# 66 "data/maps/FortreeCity_Mart/scripts.pory"
+	.string "A RARE CANDY makes a POKéMON grow\n"
+# 67 "data/maps/FortreeCity_Mart/scripts.pory"
 	.string "immediately by one level.$"

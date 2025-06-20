@@ -944,3 +944,20 @@ Route116_Text_TrainerTipsBagHasPockets:
 	.string "No TRAINER can afford to be without\n"
 # 473 "data/maps/Route116/scripts.pory"
 	.string "a BAG of their own.$"
+
+Route116_EventScript_NewSign::
+# 477 "data/maps/Route116/scripts.pory"
+	lockall
+# 478 "data/maps/Route116/scripts.pory"
+	msgbox Route116_EventScript_NewSign_Text_0
+# 482 "data/maps/Route116/scripts.pory"
+	releaseall
+	return
+
+
+Route116_EventScript_NewSign_Text_0:
+# 478 "data/maps/Route116/scripts.pory"
+	.string "Encounters: Surskit, Stunky, Nincada\n"
+	.string "Abra, Exeggcute, Toxel, Togepi, Tadbulb,\l"
+	.string "Ponyta, Beldum, Skitty, Grookey. CATCH\l"
+	.string "EM ALL.$"

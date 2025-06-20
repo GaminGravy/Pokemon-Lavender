@@ -363,7 +363,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 # 182 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "SOOTOPOLIS's GYM LEADER JUAN is\n"
 # 183 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
-	.string "a master of WATER-type POKéMON.\p"
+	.string "a master of ICE-type POKéMON.\p"
 # 184 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	.string "And, to get to JUAN, an icy floor\n"
 # 185 "data/maps/SootopolisCity_Gym_1F/scripts.pory"

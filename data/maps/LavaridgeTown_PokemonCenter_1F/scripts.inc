@@ -98,3 +98,25 @@ LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
 	.string "If POKéMON are getting rest, so too\n"
 # 50 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
 	.string "should their TRAINERS.$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_4::
+# 54 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
+	trainerbattle_single TRAINER_EXP_4, RustboroCity_PokemonCenter_EXP_TRAINER_4_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_4_Outro
+# 55 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
+	msgbox RustboroCity_PokemonCenter_EXP_TRAINER_4_PostBattle, MSGBOX_AUTOCLOSE
+# 56 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
+	cleartrainerflag TRAINER_EXP_4
+	end
+
+
+RustboroCity_PokemonCenter_EXP_TRAINER_4_Intro::
+# 60 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
+	.string "Fight me for EXP!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_4_Outro::
+# 64 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
+	.string "Dont worry you can't overlevel!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_4_PostBattle::
+# 68 "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.pory"
+	.string "You can always rebattle me!$"

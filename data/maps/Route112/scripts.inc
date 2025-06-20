@@ -288,3 +288,21 @@ Route112_Text_RouteSignLavaridge:
 	.string "ROUTE 112\n"
 # 145 "data/maps/Route112/scripts.pory"
 	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
+
+Route112_EventScript_NewSign::
+# 149 "data/maps/Route112/scripts.pory"
+	lockall
+# 150 "data/maps/Route112/scripts.pory"
+	msgbox Route112_EventScript_NewSign_Text_0
+# 154 "data/maps/Route112/scripts.pory"
+	releaseall
+	return
+
+
+Route112_EventScript_NewSign_Text_0:
+# 150 "data/maps/Route112/scripts.pory"
+	.string "Encounters: Yamask, Galarian Yamask,\n"
+	.string "Alolan Vulpix, Growlithe, Baltoy, Hisuian\l"
+	.string "Growlithe, Stunfisk, Magmar, Galarian\l"
+	.string "Stunfisk, Magby, Sizzlipede, Gible,\l"
+	.string "Fuecoco CATCH EM ALL.$"

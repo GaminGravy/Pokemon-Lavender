@@ -39,3 +39,21 @@ DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM:
 	.string "from a HIDDEN MACHINE (HM).$"
 
 `
+script RustboroCity_PokemonCenter_EXP_TRAINER_2{
+	trainerbattle_single(TRAINER_EXP_2, RustboroCity_PokemonCenter_EXP_TRAINER_2_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_2_Outro)
+	msgbox (RustboroCity_PokemonCenter_EXP_TRAINER_2_PostBattle, MSGBOX_AUTOCLOSE)
+	cleartrainerflag(TRAINER_EXP_2)
+	end
+}
+
+ text RustboroCity_PokemonCenter_EXP_TRAINER_2_Intro{
+	"Fight me for EXP!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_2_Outro{
+	"Dont worry you can't overlevel!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_2_PostBattle{
+	"You can always rebattle me!"
+}

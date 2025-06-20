@@ -355,3 +355,11 @@ Route103_Text_RouteSign:
 	.string "{DOWN_ARROW} OLDALE TOWN$"
 
 `
+script Route103_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Pikipek, Bidoof, Cottonee,
+	Rookidee, Wingull, Hoothoot, Venipede, Yungoos,
+	Panpour, Squirtle.
+    CATCH EM ALL."))
+    releaseall
+    }

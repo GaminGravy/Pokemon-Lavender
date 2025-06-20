@@ -202,3 +202,25 @@ EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
 	.string "Okay, {PLAYER}{KUN}.\n"
 # 102 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	.string "Go for greatness!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_7::
+# 106 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	trainerbattle_single TRAINER_EXP_7, RustboroCity_PokemonCenter_EXP_TRAINER_7_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_7_Outro
+# 107 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	msgbox RustboroCity_PokemonCenter_EXP_TRAINER_7_PostBattle, MSGBOX_AUTOCLOSE
+# 108 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	cleartrainerflag TRAINER_EXP_7
+	end
+
+
+RustboroCity_PokemonCenter_EXP_TRAINER_7_Intro::
+# 112 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "Fight me for EXP!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_7_Outro::
+# 116 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "Dont worry you can't overlevel!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_7_PostBattle::
+# 120 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+	.string "You can always rebattle me!$"

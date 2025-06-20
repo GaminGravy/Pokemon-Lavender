@@ -11,3 +11,11 @@ GraniteCave_B1F_SetHoleWarp:
 	end
 
 `
+script GraniteCave_B1F_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Zubat, Aron,
+	Onix, Nosepass, Abra, Carbink, Woobat, Sableye,
+	Drilbur, Mawile, Cyndaquil.
+    CATCH EM ALL."))
+    releaseall
+    }

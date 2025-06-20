@@ -124,7 +124,7 @@ Converts trainer data (for `convert_trainer_parties.py`) and partner data (for `
 +
 +Geodude
 +Level: 21
-+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
++IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 ```
 
 #### [src/data/partner_parties.h](..src/data/partner_parties.h)

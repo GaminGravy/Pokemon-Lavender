@@ -49,3 +49,21 @@ RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 	.string "CUT down skinny trees.$"
 
 `
+script RustboroCity_PokemonCenter_EXP_TRAINER{
+	trainerbattle_single(TRAINER_EXP_1, RustboroCity_PokemonCenter_EXP_TRAINER_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_Outro)
+	msgbox (RustboroCity_PokemonCenter_EXP_TRAINER_PostBattle, MSGBOX_AUTOCLOSE)
+	cleartrainerflag(TRAINER_EXP_1)
+	end
+}
+
+ text RustboroCity_PokemonCenter_EXP_TRAINER_Intro{
+	"Fight me for EXP!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_Outro{
+	"Dont worry you can't overlevel!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_PostBattle{
+	"You can always rebattle me!"
+}

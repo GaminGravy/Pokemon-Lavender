@@ -50,3 +50,21 @@ LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
 	.string "should their TRAINERS.$"
 
 `
+script RustboroCity_PokemonCenter_EXP_TRAINER_4{
+	trainerbattle_single(TRAINER_EXP_4, RustboroCity_PokemonCenter_EXP_TRAINER_4_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_4_Outro)
+	msgbox (RustboroCity_PokemonCenter_EXP_TRAINER_4_PostBattle, MSGBOX_AUTOCLOSE)
+	cleartrainerflag(TRAINER_EXP_4)
+	end
+}
+
+ text RustboroCity_PokemonCenter_EXP_TRAINER_4_Intro{
+	"Fight me for EXP!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_4_Outro{
+	"Dont worry you can't overlevel!"
+}
+
+text RustboroCity_PokemonCenter_EXP_TRAINER_4_PostBattle{
+	"You can always rebattle me!"
+}

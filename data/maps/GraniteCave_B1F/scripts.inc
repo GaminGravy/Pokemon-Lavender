@@ -20,3 +20,20 @@ GraniteCave_B1F_SetHoleWarp:
 	setholewarp MAP_GRANITE_CAVE_B2F
 # 11 "data/maps/GraniteCave_B1F/scripts.pory"
 	end
+
+GraniteCave_B1F_EventScript_NewSign::
+# 15 "data/maps/GraniteCave_B1F/scripts.pory"
+	lockall
+# 16 "data/maps/GraniteCave_B1F/scripts.pory"
+	msgbox GraniteCave_B1F_EventScript_NewSign_Text_0
+# 20 "data/maps/GraniteCave_B1F/scripts.pory"
+	releaseall
+	return
+
+
+GraniteCave_B1F_EventScript_NewSign_Text_0:
+# 16 "data/maps/GraniteCave_B1F/scripts.pory"
+	.string "Encounters: Zubat, Aron, Onix,\n"
+	.string "Nosepass, Abra, Carbink, Woobat,\l"
+	.string "Sableye, Drilbur, Mawile, Cyndaquil.\l"
+	.string "CATCH EM ALL.$"

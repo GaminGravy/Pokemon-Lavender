@@ -202,3 +202,11 @@ Route114_Text_LanettesHouse:
 	.string "LANETTE'S HOUSE$"
 
 `
+script Route114_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Swablu, Hippopotas,
+	Rellor, Morelull, Combee, Croagunk, Snover,
+	Skiddo, Zangoose, Seviper, Deino, Rowlet.
+    CATCH EM ALL."))
+    releaseall
+    }

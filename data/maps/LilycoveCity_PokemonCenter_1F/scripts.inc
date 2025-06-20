@@ -134,3 +134,25 @@ LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels:
 	.string "POKéMON and rip off METEORITES…\p"
 # 68 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	.string "I haven't seen them around recently.$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_5::
+# 72 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	trainerbattle_single TRAINER_EXP_5, RustboroCity_PokemonCenter_EXP_TRAINER_5_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_5_Outro
+# 73 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	msgbox RustboroCity_PokemonCenter_EXP_TRAINER_5_PostBattle, MSGBOX_AUTOCLOSE
+# 74 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	cleartrainerflag TRAINER_EXP_5
+	end
+
+
+RustboroCity_PokemonCenter_EXP_TRAINER_5_Intro::
+# 78 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	.string "Fight me for EXP!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_5_Outro::
+# 82 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	.string "Dont worry you can't overlevel!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_5_PostBattle::
+# 86 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
+	.string "You can always rebattle me!$"

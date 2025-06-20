@@ -76,3 +76,25 @@ DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM:
 	.string "battle, it can still use a move learned\l"
 # 39 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 	.string "from a HIDDEN MACHINE (HM).$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_2::
+# 43 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	trainerbattle_single TRAINER_EXP_2, RustboroCity_PokemonCenter_EXP_TRAINER_2_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_2_Outro
+# 44 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	msgbox RustboroCity_PokemonCenter_EXP_TRAINER_2_PostBattle, MSGBOX_AUTOCLOSE
+# 45 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	cleartrainerflag TRAINER_EXP_2
+	end
+
+
+RustboroCity_PokemonCenter_EXP_TRAINER_2_Intro::
+# 49 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.string "Fight me for EXP!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_2_Outro::
+# 53 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.string "Dont worry you can't overlevel!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_2_PostBattle::
+# 57 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+	.string "You can always rebattle me!$"

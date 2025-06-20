@@ -142,3 +142,25 @@ SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
 	.string "Aren't POKéMON our friends?\p"
 # 72 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
 	.string "Why are they going wild this way?$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_6::
+# 76 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+	trainerbattle_single TRAINER_EXP_6, RustboroCity_PokemonCenter_EXP_TRAINER_6_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_6_Outro
+# 77 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+	msgbox RustboroCity_PokemonCenter_EXP_TRAINER_6_PostBattle, MSGBOX_AUTOCLOSE
+# 78 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+	cleartrainerflag TRAINER_EXP_6
+	end
+
+
+RustboroCity_PokemonCenter_EXP_TRAINER_6_Intro::
+# 82 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+	.string "Fight me for EXP!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_6_Outro::
+# 86 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+	.string "Dont worry you can't overlevel!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_6_PostBattle::
+# 90 "data/maps/SootopolisCity_PokemonCenter_1F/scripts.pory"
+	.string "You can always rebattle me!$"
