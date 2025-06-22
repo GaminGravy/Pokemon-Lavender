@@ -602,3 +602,21 @@ Route118_Text_RouteSign119:
 	.string "ROUTE 118\n"
 # 302 "data/maps/Route118/scripts.pory"
 	.string "{UP_ARROW} ROUTE 119$"
+
+Route118_EventScript_NewSign::
+# 306 "data/maps/Route118/scripts.pory"
+	lockall
+# 307 "data/maps/Route118/scripts.pory"
+	msgbox Route118_EventScript_NewSign_Text_0
+# 311 "data/maps/Route118/scripts.pory"
+	releaseall
+	return
+
+
+Route118_EventScript_NewSign_Text_0:
+# 307 "data/maps/Route118/scripts.pory"
+	.string "Encounters: Audino, Blitzle, Zigzagoon,\n"
+	.string "Oricorio Pom Pom, Chatot, Yamper,\l"
+	.string "Glameow, Meowth, Alolan Meowth,\l"
+	.string "Scyther, Kecleon, Oshawott. CATCH EM\l"
+	.string "ALL.$"
