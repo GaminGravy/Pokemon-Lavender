@@ -302,3 +302,11 @@ Route118_Text_RouteSign119:
 	.string "{UP_ARROW} ROUTE 119$"
 
 `
+script Route118_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Audino, Blitzle,
+	Zigzagoon, Oricorio Pom Pom, Chatot, Yamper, Glameow, Meowth,
+	Alolan Meowth, Scyther, Kecleon, Oshawott.
+    CATCH EM ALL."))
+    releaseall
+    }
