@@ -2359,5 +2359,5 @@ Route104_EventScript_NewSign_Text_0:
 # 1177 "data/maps/Route104/scripts.pory"
 	.string "Encounters: Lechonk, Lillipup, Nickit,\n"
 	.string "Wooloo, Starly, Nymble, Tarountula,\l"
-	.string "Tailow, Houndour, Abra, Sunkern,\l"
-	.string "Totodile. CATCH EM ALL.$"
+	.string "Tailow, Houndour, Nidoran Female,\l"
+	.string "Sunkern, Totodile. CATCH EM ALL.$"

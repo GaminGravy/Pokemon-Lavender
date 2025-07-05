@@ -26,3 +26,20 @@ FieryPath_EventScript_MoveScottToFallarbor::
 	clearflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
 # 14 "data/maps/FieryPath/scripts.pory"
 	return
+
+FieryPath_EventScript_NewSign::
+# 18 "data/maps/FieryPath/scripts.pory"
+	lockall
+# 19 "data/maps/FieryPath/scripts.pory"
+	msgbox FieryPath_EventScript_NewSign_Text_0
+# 23 "data/maps/FieryPath/scripts.pory"
+	releaseall
+	return
+
+
+FieryPath_EventScript_NewSign_Text_0:
+# 19 "data/maps/FieryPath/scripts.pory"
+	.string "Encounters: Litleo, Koffing, Charcadet,\n"
+	.string "Rolycoly, Torkoal, Slugma, Machop,\l"
+	.string "Grimer, Alolan Grimer, Litten. CATCH EM\l"
+	.string "ALL.$"

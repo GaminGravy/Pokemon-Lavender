@@ -302,6 +302,6 @@ Route115_EventScript_NewSign::
 Route115_EventScript_NewSign_Text_0:
 # 150 "data/maps/Route115/scripts.pory"
 	.string "Encounters: Applin, Smoliv, Foongus,\n"
-	.string "Petilil, Sigilyph, Delibird, Natu,\l"
+	.string "Petilil, Drowzee, Delibird, Natu,\l"
 	.string "Jigglypuff, Doduo, Pancham, Chespin.\l"
 	.string "CATCH EM ALL.$"

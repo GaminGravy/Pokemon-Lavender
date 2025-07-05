@@ -346,5 +346,4 @@ Route113_EventScript_NewSign_Text_0:
 	.string "Encounters: Spinda, Alolan Sandshrew,\n"
 	.string "Galarian Meowth, Rufflet, Ferroseed,\l"
 	.string "Minccino, Hisuian Zorua, Oricorio Baile,\l"
-	.string "Skarmory, Riolu, Slugma, Tepig CATCH EM\l"
-	.string "ALL.$"
+	.string "Skarmory, Riolu, Tepig CATCH EM ALL.$"

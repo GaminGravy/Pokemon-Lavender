@@ -1156,3 +1156,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Victory_Cavern/scripts.inc"
 
 	.include "data/maps/Fake_House/scripts.inc"
+
+	.include "data/maps/Silken_Hollow/scripts.inc"
+
+	.include "data/maps/Primitive_Grotto/scripts.inc"
+
+	.include "data/maps/TemporalAbyss/scripts.inc"

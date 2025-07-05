@@ -14,3 +14,11 @@ FieryPath_EventScript_MoveScottToFallarbor::
 	return
 
 `
+script FieryPath_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Litleo, Koffing,
+	Charcadet, Rolycoly, Torkoal, Slugma, Machop, Grimer,
+	Alolan Grimer, Litten.
+    CATCH EM ALL."))
+    releaseall
+    }

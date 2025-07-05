@@ -534,3 +534,20 @@ JaggedPass_Text_AutumnPostBattle:
 	.string "What is that odd rock protrusion\n"
 # 268 "data/maps/JaggedPass/scripts.pory"
 	.string "a little up the hill from here?$"
+
+JaggedPass_EventScript_NewSign::
+# 272 "data/maps/JaggedPass/scripts.pory"
+	lockall
+# 273 "data/maps/JaggedPass/scripts.pory"
+	msgbox JaggedPass_EventScript_NewSign_Text_0
+# 278 "data/maps/JaggedPass/scripts.pory"
+	releaseall
+	return
+
+
+JaggedPass_EventScript_NewSign_Text_0:
+# 273 "data/maps/JaggedPass/scripts.pory"
+	.string "Encounters: Tympole, Emolga, Swinub,\n"
+	.string "Porygon, Spoink, Hoppip, Lunatone,\l"
+	.string "Silicobra, Teddiursa, Squakabilly,\l"
+	.string "Farigiraf, Miltank. CATCH EM ALL.$"

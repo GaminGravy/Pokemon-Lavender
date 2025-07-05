@@ -1710,6 +1710,22 @@
       "y": 4,
       "width": 1,
       "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SILKEN_HOLLOW",
+      "name": "SILKEN HOLLOW",
+      "x": 8,
+      "y": 4,
+      "width": 20,
+      "height": 20
+    },
+    {
+      "map_section": "MAPSEC_PRIMITIVE_GROTTO",
+      "name": "PRIMITIVE GROTTO",
+      "x": 8,
+      "y": 4,
+      "width": 20,
+      "height": 20
     }
   ]
 }

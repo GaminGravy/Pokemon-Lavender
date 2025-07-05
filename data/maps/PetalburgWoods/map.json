@@ -226,6 +226,20 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE104",
       "dest_warp_id": "7"
+    },
+    {
+      "x": 34,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_SILKEN_HOLLOW",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 35,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_SILKEN_HOLLOW",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

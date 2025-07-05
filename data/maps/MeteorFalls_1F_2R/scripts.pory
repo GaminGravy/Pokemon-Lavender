@@ -183,3 +183,11 @@ MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
 	.string "have to come back with more POKéMON.$"
 
 `
+script MeteorFalls_1F_2R_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Munna, Sigilyph,
+	Solosis, Gothita, Varoom, Solrock, Lunatone,
+	Goomy, Axew, Bagon, Froakie
+    CATCH EM ALL."))
+    releaseall
+    }

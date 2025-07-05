@@ -1176,7 +1176,7 @@ script Route104_EventScript_NewSign {
  	lockall
     msgbox(format("Encounters: Lechonk, Lillipup,
 	Nickit, Wooloo, Starly, Nymble, Tarountula, Tailow,
-	Houndour, Abra, Sunkern, Totodile.
+	Houndour, Nidoran Female, Sunkern, Totodile.
     CATCH EM ALL."))
     releaseall
     }

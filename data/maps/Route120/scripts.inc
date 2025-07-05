@@ -878,3 +878,21 @@ Route120_Text_RouteSign121:
 	.string "{RIGHT_ARROW} ROUTE 121\n"
 # 440 "data/maps/Route120/scripts.pory"
 	.string "{LEFT_ARROW} ROUTE 120$"
+
+Route120_EventScript_NewSign::
+# 443 "data/maps/Route120/scripts.pory"
+	lockall
+# 444 "data/maps/Route120/scripts.pory"
+	msgbox Route120_EventScript_NewSign_Text_0
+# 448 "data/maps/Route120/scripts.pory"
+	releaseall
+	return
+
+
+Route120_EventScript_NewSign_Text_0:
+# 444 "data/maps/Route120/scripts.pory"
+	.string "Encounters: Galarian Zigzagoon,\n"
+	.string "Hisuian Sneasel, Sneasel, Bounsweet,\l"
+	.string "Galarian Slowpoke, Gossifluer, Combat\l"
+	.string "Tauros, Rattata, Absol, Vullaby, Aqua\l"
+	.string "Tauros, Mudkip. CATCH EM ALL.$"

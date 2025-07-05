@@ -53,3 +53,11 @@ MagmaHideout_1F_Text_Grunt2PostBattle:
 	.string "to the end, don't you think?$"
 
 `
+script MagmaHideout_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Rockruff, Stonjourner,
+	Nacli, Shuckle, Rhyhorn, Tauros Blaze, Ceruledge,
+	Armarouge, Golem, Graveler.
+    CATCH EM ALL."))
+    releaseall
+    }

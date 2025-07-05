@@ -439,3 +439,11 @@ Route120_Text_RouteSign121:
 	.string "{RIGHT_ARROW} ROUTE 121\n"
 	.string "{LEFT_ARROW} ROUTE 120$"
 `
+script Route120_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Galarian Zigzagoon, Hisuian Sneasel,
+	Sneasel, Bounsweet, Galarian Slowpoke, Gossifluer, Combat Tauros,
+	Rattata, Absol, Vullaby, Aqua Tauros, Mudkip.
+    CATCH EM ALL."))
+    releaseall
+    }

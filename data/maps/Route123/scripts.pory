@@ -198,3 +198,11 @@ Route123_Text_BerryMastersHouse:
 	.string "BERRY MASTER'S HOUSE$"
 
 `
+script Route123_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Tinkatink, Chingling, Bonsly,
+	Mime Jr, Wimpod, Galarian Farfetchd, Bellsprout, Mankey,
+	Psyduck, Nidoran Male, Torchic.
+    CATCH EM ALL."))
+    releaseall
+    }

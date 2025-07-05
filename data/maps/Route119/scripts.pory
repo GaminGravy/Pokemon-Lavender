@@ -614,3 +614,11 @@ Route119_Text_TrainerTipsDecoration:
 	.string "your very own SECRET BASE exactly the\l"
 	.string "way you want.$"
 `
+script Route119_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Stantler, Ditto,
+	Girafarig, Cherubi, Tauros, Budew, Deerling,
+	Happiny, Tropius, Dhelmise, Treeko, Porygon.
+    CATCH EM ALL."))
+    releaseall
+    }

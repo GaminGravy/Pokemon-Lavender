@@ -148,7 +148,7 @@ Route115_Text_MeteorFallsSign:
 script Route115_EventScript_NewSign {
  	lockall
     msgbox(format("Encounters: Applin, Smoliv,
-	Foongus, Petilil, Sigilyph, Delibird, Natu,
+	Foongus, Petilil, Drowzee, Delibird, Natu,
 	Jigglypuff, Doduo, Pancham, Chespin.
     CATCH EM ALL."))
     releaseall

@@ -364,3 +364,20 @@ MeteorFalls_1F_2R_Text_JayRematchNotEnoughMons:
 	.string "If you'd care to battle with us, you'll\n"
 # 183 "data/maps/MeteorFalls_1F_2R/scripts.pory"
 	.string "have to come back with more POKéMON.$"
+
+MeteorFalls_1F_2R_EventScript_NewSign::
+# 187 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	lockall
+# 188 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	msgbox MeteorFalls_1F_2R_EventScript_NewSign_Text_0
+# 192 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	releaseall
+	return
+
+
+MeteorFalls_1F_2R_EventScript_NewSign_Text_0:
+# 188 "data/maps/MeteorFalls_1F_2R/scripts.pory"
+	.string "Encounters: Munna, Sigilyph, Solosis,\n"
+	.string "Gothita, Varoom, Solrock, Lunatone,\l"
+	.string "Goomy, Axew, Bagon, Froakie CATCH EM\l"
+	.string "ALL.$"

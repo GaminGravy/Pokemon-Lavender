@@ -1228,3 +1228,20 @@ Route119_Text_TrainerTipsDecoration:
 	.string "your very own SECRET BASE exactly the\l"
 # 615 "data/maps/Route119/scripts.pory"
 	.string "way you want.$"
+
+Route119_EventScript_NewSign::
+# 618 "data/maps/Route119/scripts.pory"
+	lockall
+# 619 "data/maps/Route119/scripts.pory"
+	msgbox Route119_EventScript_NewSign_Text_0
+# 623 "data/maps/Route119/scripts.pory"
+	releaseall
+	return
+
+
+Route119_EventScript_NewSign_Text_0:
+# 619 "data/maps/Route119/scripts.pory"
+	.string "Encounters: Stantler, Ditto, Girafarig,\n"
+	.string "Cherubi, Tauros, Budew, Deerling,\l"
+	.string "Happiny, Tropius, Dhelmise, Treeko,\l"
+	.string "Porygon. CATCH EM ALL.$"

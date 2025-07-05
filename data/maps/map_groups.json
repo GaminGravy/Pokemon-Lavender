@@ -431,7 +431,10 @@
     "TerraCave_End",
     "AlteringCave",
     "MeteorFalls_StevensCave",
-    "Victory_Cavern"
+    "Victory_Cavern",
+    "Silken_Hollow",
+    "Primitive_Grotto",
+    "TemporalAbyss"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

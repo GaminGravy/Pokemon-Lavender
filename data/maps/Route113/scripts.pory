@@ -170,7 +170,7 @@ script Route113_EventScript_NewSign {
  	lockall
     msgbox(format("Encounters: Spinda, Alolan Sandshrew,
 	Galarian Meowth, Rufflet, Ferroseed, Minccino, Hisuian Zorua,
-	Oricorio Baile, Skarmory, Riolu, Slugma, Tepig
+	Oricorio Baile, Skarmory, Riolu, Tepig
     CATCH EM ALL."))
     releaseall
     }

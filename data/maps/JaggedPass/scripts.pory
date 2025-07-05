@@ -268,3 +268,12 @@ JaggedPass_Text_AutumnPostBattle:
 	.string "a little up the hill from here?$"
 
 `
+script JaggedPass_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Tympole, Emolga,
+	Swinub, Porygon, Spoink, Hoppip, Lunatone,
+	Silicobra, Teddiursa, Squakabilly, Farigiraf,
+	Miltank.
+    CATCH EM ALL."))
+    releaseall
+    }

@@ -723,5 +723,5 @@ Route103_EventScript_NewSign_Text_0:
 # 360 "data/maps/Route103/scripts.pory"
 	.string "Encounters: Pikipek, Bidoof, Cottonee,\n"
 	.string "Rookidee, Wingull, Hoothoot, Venipede,\l"
-	.string "Yungoos, Panpour, Squirtle. CATCH EM\l"
-	.string "ALL.$"
+	.string "Yungoos, Panpour, Ekans, Squirtle.\l"
+	.string "CATCH EM ALL.$"

@@ -315,3 +315,11 @@ MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
 	.string "What are they going to do with that\n"
 	.string "METEORITE at MT. CHIMNEY?$"
 `
+script MeteorFalls_1F_1R_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Munna, Sigilyph,
+	Solosis, Gothita, Varoom, Solrock, Lunatone,
+	Goomy, Axew, Bagon, Froakie
+    CATCH EM ALL."))
+    releaseall
+    }

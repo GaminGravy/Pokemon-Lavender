@@ -192,3 +192,11 @@ Route121_Text_SafariZoneSign:
 	.string "SAFARI ZONE$"
 
 `
+script Route121_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Krabby, Shuppet,
+	Mightyena, Nuzleaf, Alolan Grimer, Murkrow,
+	Carnivine, Sinistea, Dreepy, Mimikyu, Fennekin.
+    CATCH EM ALL."))
+    releaseall
+    }

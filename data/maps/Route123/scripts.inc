@@ -394,3 +394,20 @@ Route123_Text_RouteSignMtPyre:
 Route123_Text_BerryMastersHouse:
 # 198 "data/maps/Route123/scripts.pory"
 	.string "BERRY MASTER'S HOUSE$"
+
+Route123_EventScript_NewSign::
+# 202 "data/maps/Route123/scripts.pory"
+	lockall
+# 203 "data/maps/Route123/scripts.pory"
+	msgbox Route123_EventScript_NewSign_Text_0
+# 207 "data/maps/Route123/scripts.pory"
+	releaseall
+	return
+
+
+Route123_EventScript_NewSign_Text_0:
+# 203 "data/maps/Route123/scripts.pory"
+	.string "Encounters: Tinkatink, Chingling,\n"
+	.string "Bonsly, Mime Jr, Wimpod, Galarian\l"
+	.string "Farfetchd, Bellsprout, Mankey, Psyduck,\l"
+	.string "Nidoran Male, Torchic. CATCH EM ALL.$"

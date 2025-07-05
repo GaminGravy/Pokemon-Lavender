@@ -630,3 +630,20 @@ MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
 	.string "What are they going to do with that\n"
 # 316 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	.string "METEORITE at MT. CHIMNEY?$"
+
+MeteorFalls_1F_1R_EventScript_NewSign::
+# 319 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+	lockall
+# 320 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+	msgbox MeteorFalls_1F_1R_EventScript_NewSign_Text_0
+# 324 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+	releaseall
+	return
+
+
+MeteorFalls_1F_1R_EventScript_NewSign_Text_0:
+# 320 "data/maps/MeteorFalls_1F_1R/scripts.pory"
+	.string "Encounters: Munna, Sigilyph, Solosis,\n"
+	.string "Gothita, Varoom, Solrock, Lunatone,\l"
+	.string "Goomy, Axew, Bagon, Froakie CATCH EM\l"
+	.string "ALL.$"

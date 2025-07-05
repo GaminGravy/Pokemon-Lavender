@@ -359,7 +359,7 @@ script Route103_EventScript_NewSign {
  	lockall
     msgbox(format("Encounters: Pikipek, Bidoof, Cottonee,
 	Rookidee, Wingull, Hoothoot, Venipede, Yungoos,
-	Panpour, Squirtle.
+	Panpour, Ekans, Squirtle.
     CATCH EM ALL."))
     releaseall
     }

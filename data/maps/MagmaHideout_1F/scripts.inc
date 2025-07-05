@@ -104,3 +104,20 @@ MagmaHideout_1F_Text_Grunt2PostBattle:
 	.string "It'd be better if you saved surprises\n"
 # 53 "data/maps/MagmaHideout_1F/scripts.pory"
 	.string "to the end, don't you think?$"
+
+MagmaHideout_EventScript_NewSign::
+# 57 "data/maps/MagmaHideout_1F/scripts.pory"
+	lockall
+# 58 "data/maps/MagmaHideout_1F/scripts.pory"
+	msgbox MagmaHideout_EventScript_NewSign_Text_0
+# 62 "data/maps/MagmaHideout_1F/scripts.pory"
+	releaseall
+	return
+
+
+MagmaHideout_EventScript_NewSign_Text_0:
+# 58 "data/maps/MagmaHideout_1F/scripts.pory"
+	.string "Encounters: Rockruff, Stonjourner,\n"
+	.string "Nacli, Shuckle, Rhyhorn, Tauros Blaze,\l"
+	.string "Ceruledge, Armarouge, Golem, Graveler.\l"
+	.string "CATCH EM ALL.$"

@@ -3,3 +3,11 @@ MeteorFalls_B1F_1R_MapScripts::
 	.byte 0
 
 `
+script MeteorFalls_B1F_1R_EventScript_NewSign {
+ 	lockall
+    msgbox(format("Encounters: Munna, Sigilyph,
+	Solosis, Gothita, Varoom, Solrock, Lunatone,
+	Goomy, Axew, Bagon, Froakie
+    CATCH EM ALL."))
+    releaseall
+    }

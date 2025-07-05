@@ -4430,6 +4430,36 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Fake_House/border.bin",
       "blockdata_filepath": "data/layouts/Fake_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILKEN_HOLLOW",
+      "name": "Silken_Hollow_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Silken_Hollow/border.bin",
+      "blockdata_filepath": "data/layouts/Silken_Hollow/map.bin"
+    },
+    {
+      "id": "LAYOUT_PRIMITIVE_GROTTO",
+      "name": "Primitive_Grotto_Layout",
+      "width": 21,
+      "height": 17,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Primitive_Grotto/border.bin",
+      "blockdata_filepath": "data/layouts/Primitive_Grotto/map.bin"
+    },
+    {
+      "id": "LAYOUT_TEMPORAL_ABYSS",
+      "name": "TemporalAbyss_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/TemporalAbyss/border.bin",
+      "blockdata_filepath": "data/layouts/TemporalAbyss/map.bin"
     }
   ]
 }

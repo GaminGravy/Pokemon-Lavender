@@ -382,3 +382,20 @@ Route121_Text_SafariZoneSign:
 	.string "“Filled with rare POKéMON!”\n"
 # 192 "data/maps/Route121/scripts.pory"
 	.string "SAFARI ZONE$"
+
+Route121_EventScript_NewSign::
+# 196 "data/maps/Route121/scripts.pory"
+	lockall
+# 197 "data/maps/Route121/scripts.pory"
+	msgbox Route121_EventScript_NewSign_Text_0
+# 201 "data/maps/Route121/scripts.pory"
+	releaseall
+	return
+
+
+Route121_EventScript_NewSign_Text_0:
+# 197 "data/maps/Route121/scripts.pory"
+	.string "Encounters: Krabby, Shuppet,\n"
+	.string "Mightyena, Nuzleaf, Alolan Grimer,\l"
+	.string "Murkrow, Carnivine, Sinistea, Dreepy,\l"
+	.string "Mimikyu, Fennekin. CATCH EM ALL.$"
