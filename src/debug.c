@@ -5142,7 +5142,7 @@ static void DebugAction_Party_ClearParty(u8 taskId)
 void CheckEWRAMCounters(struct ScriptContext *ctx)
 {
     ConvertIntToDecimalStringN(gStringVar1, gFollowerSteps, STR_CONV_MODE_LEFT_ALIGN, 5);
-    ConvertIntToDecimalStringN(gStringVar2, gChainFishingDexNavStreak, STR_CONV_MODE_LEFT_ALIGN, 5);
+ 
 }
 
 static void DebugAction_Util_CheckEWRAMCounters(u8 taskId)
