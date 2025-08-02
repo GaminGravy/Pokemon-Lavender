@@ -152,6 +152,10 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Curse
 - Surf
 
+Dragonair
+Level: 64
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
 Name: GRUNT
 Class: Team Aqua
@@ -449,6 +453,10 @@ Level: 48
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Crawdaunt
+Level: 48
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Golbat
 Level: 48
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -807,6 +815,18 @@ Mimikyu
 Level: 56
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Haunter
+Level: 56
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Drowzee
+Level: 56
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Shuppet
+Level: 56
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_DAISY ===
 Name: DAISY
 Class: Aroma Lady
@@ -846,6 +866,10 @@ Level: 14
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Roselia
+Level: 14
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Spoink
 Level: 14
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -1765,6 +1789,14 @@ Sigilyph
 Level: 79
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+Dugtrio
+Level: 79
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Meganium
+Level: 79
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
 === TRAINER_ALBERT ===
 Name: ALBERT
 Class: Cooltrainer
@@ -2134,6 +2166,10 @@ Level: 80
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Nidoqueen
+Level: 80
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Clefable
 Level: 80
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -3108,6 +3144,14 @@ Orthworm
 Level: 33
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Porygon
+Level: 33
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Porygon2
+Level: 33
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_THALIA_1 ===
 Name: THALIA
 Class: Beauty
@@ -3438,6 +3482,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacruel
+Level: 34
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Carvanha
 Level: 34
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -4098,6 +4146,10 @@ Bronzong
 Level: 50
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Ursaring
+Level: 50
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_COLE ===
 Name: COLE
 Class: Kindler
@@ -4205,6 +4257,10 @@ Level: 32
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Lampent
+Level: 32
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Quilava
 Level: 32
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -4449,6 +4505,10 @@ Level: 25
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Mudbray
+Level: 25
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Vanillite
 Level: 25
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -5552,6 +5612,10 @@ Archen @ Oran Berry
 Level: 14
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
+Kabuto @ Oran Berry
+Level: 14
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
 Class: Leader
@@ -5621,6 +5685,10 @@ Magneton
 Level: 24
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
+Jolteon
+Level: 24
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
 Class: Leader
@@ -5652,7 +5720,7 @@ Ceruledge @ Spell Tag
 Level: 34
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-Armarouge @Twisted Spoon
+Armarouge @ Twisted Spoon
 Level: 34
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
@@ -5910,6 +5978,10 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Wingull
 Level: 15
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Sunflora
+Level: 16
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_JERRY_2 ===
@@ -6534,6 +6606,10 @@ Varoom @ Oran Berry
 Level: 21
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+Bayleef @ Oran Berry
+Level: 21
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
 === TRAINER_ISABEL_2 ===
 Name: ISABEL
 Class: Pokefan
@@ -6644,6 +6720,10 @@ Double Battle: No
 AI: Basic Trainer
 
 Hariyama
+Level: 27
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Cottonee
 Level: 27
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -6846,6 +6926,14 @@ Paras
 Level: 7
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Nidoran_M
+Level: 7
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Bidoof
+Level: 7
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_BILLY ===
 Name: BILLY
 Class: Youngster
@@ -6864,6 +6952,10 @@ Level: 9
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hoothoot
+Level: 9
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Ledian
 Level: 9
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -6931,6 +7023,14 @@ Sneasel_Hisui
 Level: 9
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Spinarak
+Level: 9
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Chespin
+Level: 9
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_BEN ===
 Name: BEN
 Class: Youngster
@@ -6953,6 +7053,10 @@ Level: 23
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Toxel
+Level: 23
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Eelektrik
 Level: 23
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -7173,6 +7277,10 @@ Helioptile
 Level: 22
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Lickitung
+Level: 22
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_WALLACE ===
 Name: WALLACE
 Class: Champion
@@ -7257,6 +7365,10 @@ Level: 17
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Frillish
+Level: 17
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Chinchou
 Level: 17
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -8598,6 +8710,10 @@ Unfezant
 Level: 49
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Noctowl
+Level: 49
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_ROBERT_2 ===
 Name: ROBERT
 Class: Bird Keeper
@@ -8801,7 +8917,7 @@ Level: 25
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Explosion
 
-Pineco
+Forretress
 Level: 25
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Explosion
@@ -9145,6 +9261,10 @@ Cubone
 Level: 30
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Teddiursa
+Level: 30
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_CLARISSA ===
 Name: CLARISSA
 Class: Parasol Lady
@@ -9178,6 +9298,10 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Weather Ball
 - Thunder
 - Water Pulse
+
+Granbull
+Level: 57
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_MADELINE_2 ===
 Name: MADELINE
@@ -9912,6 +10036,14 @@ Qwilfish_Hisui
 Level: 28
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Cacnea
+Level: 28
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Foongus
+Level: 28
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_DIANA_2 ===
 Name: DIANA
 Class: Picnicker
@@ -10230,6 +10362,14 @@ Mareanie
 Level: 19
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
+Nidorina
+Level: 19
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+
+Nidorino
+Level: 20
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+
 === TRAINER_EDMOND ===
 Name: EDMOND
 Class: Sailor
@@ -10244,6 +10384,10 @@ Level: 22
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Ducklett
+Level: 22
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+
+Ivysaur
 Level: 22
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
@@ -10645,6 +10789,14 @@ Level: 35
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Dudunsparce
+Level: 35
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Pidgeot
+Level: 35
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Trubbish
 Level: 35
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -12140,6 +12292,10 @@ Scraggy
 Level: 13
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+Primeape
+Level: 13
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
 === TRAINER_LILITH ===
 Name: LILITH
 Class: Battle Girl
@@ -12992,6 +13148,10 @@ Caterpie
 Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Kricketot
+Level: 8
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_LYLE ===
 Name: LYLE
 Class: Bug Catcher
@@ -13002,7 +13162,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Ledyba
-Level: 5
+Level: 9
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Shuckle
@@ -13010,11 +13170,19 @@ Level: 5
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Anorith
-Level: 5
+Level: 6
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Joltik
 Level: 5
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Metapod
+Level: 7
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Butterfree
+Level: 10
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_JOSE ===
@@ -13112,6 +13280,18 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Karrablast
 Level: 9
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Kakuna
+Level: 9
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Beedrill
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Venonat
+Level: 11
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_JAMES_2 ===
@@ -14452,6 +14632,10 @@ Wailord
 Level: 72
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
+Kingler
+Level: 72
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
 === TRAINER_AIDAN ===
 Name: AIDAN
 Class: Bird Keeper
@@ -15031,6 +15215,10 @@ Psyduck @ Oran Berry
 Level: 22
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Wigglytuff @ Oran Berry
+Level: 22
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_JOSEPH ===
 Name: JOSEPH
 Class: Guitarist
@@ -15162,6 +15350,10 @@ Parasect
 Level: 24
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
+Bounsweet
+Level: 24
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+
 === TRAINER_HAYDEN ===
 Name: HAYDEN
 Class: Kindler
@@ -15176,6 +15368,14 @@ Level: 28
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Litten
+Level: 28
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+
+Arbok
+Level: 28
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+
+Charcadet
 Level: 28
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
@@ -15294,6 +15494,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Qwilfish
+Level: 32
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Klawf
 Level: 32
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -15904,6 +16108,14 @@ Lombre
 Level: 22
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Petilil
+Level: 23
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Sprigatito
+Level: 23
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_BRYAN ===
 Name: BRYAN
 Class: Ruin Maniac
@@ -16074,6 +16286,18 @@ Minior
 Level: 12
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Clefairy
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Vulpix
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Cleffa
+Level: 10
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_JOHNSON ===
 Name: JOHNSON
 Class: Youngster
@@ -16130,6 +16354,10 @@ Pancham
 Level: 24
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+Buneary
+Level: 24
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
 === TRAINER_MAKAYLA ===
 Name: MAKAYLA
 Class: Expert
@@ -16180,6 +16408,10 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Scorbunny
 Level: 54
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Stonjourner
+Level: 57
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_RACHEL ===
@@ -18023,6 +18255,14 @@ Level: 23
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Pichu
+Level: 23
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Snom
+Level: 23
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Cetoddle
 Level: 23
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 

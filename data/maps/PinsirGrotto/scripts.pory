@@ -1,0 +1,27 @@
+mapscripts PinsirGrotto_MapScripts {}
+
+script PinsirGrotto_EventScript_Mega {
+
+    lockall
+    playmoncry(SPECIES_PINSIR_MEGA, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    setflag(FLAG_NOCATCH_0x027)
+    setwildbattle(SPECIES_PINSIR_MEGA, 60, ITEM_PINSIRITE)
+    dowildbattle
+    specialvar(VAR_RESULT, GetBattleOutcome)
+	if(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(Defeated_Pinsir)
+    }
+    clearflag(FLAG_NOCATCH_0x027)
+    end
+}
+
+script Defeated_Pinsir {
+    removeobject(1)
+	setflag(FLAG_PINSIR_0x029)
+    giveitem(ITEM_PINSIRITE)
+    clearflag(FLAG_NOCATCH_0x027)
+    waitmessage
+    releaseall
+	end
+    }

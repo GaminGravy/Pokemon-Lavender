@@ -114,3 +114,24 @@ FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees:
 	.string "even in volcanic ash.$"
 
 `
+script Fragments_of_Genesis_Start {
+lockall
+msgbox(format("Have you heard the rumors?
+Of unnatural storms...
+Sudden silences...
+Shadows where none should fall...
+We call it the Genesis Effect.
+A disturbance in the balance of the world.
+Something is awakening forces that shouldn't be disturbed.
+One such being was created in secret hidden behind a wall of lies.
+This creature wasnt born by nature but by pure evil ambition.
+It was created in a lab just underneath Mt. Chimney but
+once it was awoken it went on a frenzy so the project was left abandoned,
+but recently energy readings have spiked around the area
+I helped create this monster and I can't bear to see what happens.
+Please help investigate the lab.
+Things are unfolding.
+The Fragments of Genesis are awakening."))
+startquest(QUEST_1)
+releaseall
+}

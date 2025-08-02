@@ -7050,3 +7050,4 @@ bool32 IsSpeciesForeignRegionalForm(u32 species, u32 currentRegion)
     }
     return FALSE;
 }
+

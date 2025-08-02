@@ -117,3 +117,67 @@ script Route102_EventScript_NewSign {
     CATCH EM ALL."))
     releaseall
     }
+
+script Route102lostBulbasaur_Quest {
+	lockall
+if(flag(FLAG_QUEST_BULBASAUR_0x02B))
+{
+	msgbox(format("Thank you so much for your help with returning my
+	Bulbasaur to me I dont have much but I hope this will serve you
+	well in your journey."))
+	giveitem(ITEM_SILVER_POWDER)
+	completequest(QUEST_4)
+}
+else{
+msgbox(format("Hello are you a trainer?
+If so could you please help me I've lost
+my Bulbasaur somewhere, I think he got lost
+when we were in Petalburg Woods. if you find him
+could you give him back to me please"))
+setflag(FLAG_SYS_QUEST_MENU_GET)
+startquest(QUEST_4)
+}
+}
+
+script Quest_Pikachu {
+
+    lockall
+    playmoncry(SPECIES_PIKACHU, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    setwildbattle(SPECIES_PIKACHU, 9, ITEM_NONE)
+    dowildbattle
+    specialvar(VAR_RESULT, GetBattleOutcome)
+	if(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(Defeated_Pikachu)
+    }
+	if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
+        call(Defeated_Pikachu)
+	}
+    end
+}
+
+script Defeated_Pikachu {
+    removeobject(16)
+	removeobject(15)
+	removeobject(17)
+	removeobject(18)
+
+}
+
+script Quest_Bulbasaur {
+	playmoncry(SPECIES_BULBASAUR, CRY_MODE_NORMAL)
+	waitmoncry
+	applymovement(14, BulbasaurLeave)
+	waitmovement(0)
+	removeobject(15)
+	setflag(FLAG_QUEST_BULBASAUR_0x02B)
+	releaseall
+}
+
+movement BulbasaurLeave {
+	face_right
+	walk_right * 2
+	walk_down * 1
+	walk_right * 5
+
+}

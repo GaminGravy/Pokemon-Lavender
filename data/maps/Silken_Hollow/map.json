@@ -30,6 +30,13 @@
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_WOODS",
       "dest_warp_id": "7"
+    },
+    {
+      "x": 19,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_HERACROSS_GROTTO",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

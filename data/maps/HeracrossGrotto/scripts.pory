@@ -1,0 +1,28 @@
+
+mapscripts HeracrossGrotto_MapScripts {}
+
+script HeracrossGrotto_EventScript_Mega {
+
+    lockall
+    playmoncry(SPECIES_HERACROSS_MEGA, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    setflag(FLAG_NOCATCH_0x027)
+    setwildbattle(SPECIES_HERACROSS_MEGA, 60, ITEM_HERACRONITE)
+    dowildbattle
+    specialvar(VAR_RESULT, GetBattleOutcome)
+	if(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(Defeated_Heracross)
+    }
+    clearflag(FLAG_NOCATCH_0x027)
+    end
+}
+
+script Defeated_Heracross {
+    removeobject(1)
+	setflag(FLAG_HERACROSS_0x028)
+    giveitem(ITEM_HERACRONITE)
+    clearflag(FLAG_NOCATCH_0x027)
+    waitmessage
+    releaseall
+	end
+    }

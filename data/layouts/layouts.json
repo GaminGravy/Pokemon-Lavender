@@ -4460,6 +4460,56 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/TemporalAbyss/border.bin",
       "blockdata_filepath": "data/layouts/TemporalAbyss/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINSIR_GROTTO",
+      "name": "PinsirGrotto_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/PinsirGrotto/border.bin",
+      "blockdata_filepath": "data/layouts/PinsirGrotto/map.bin"
+    },
+    {
+      "id": "LAYOUT_BEEDRILL_GROTTO",
+      "name": "BeedrillGrotto_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/BeedrillGrotto/border.bin",
+      "blockdata_filepath": "data/layouts/BeedrillGrotto/map.bin"
+    },
+    {
+      "id": "LAYOUT_HERACROSS_GROTTO",
+      "name": "HeracrossGrotto_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/HeracrossGrotto/border.bin",
+      "blockdata_filepath": "data/layouts/HeracrossGrotto/map.bin"
+    },
+    {
+      "id": "LAYOUT_VENUSAUR_GROTTO",
+      "name": "VenusaurGrotto_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/VenusaurGrotto/border.bin",
+      "blockdata_filepath": "data/layouts/VenusaurGrotto/map.bin"
+    },
+    {
+      "id": "LAYOUT_RELIC_CAVERN",
+      "name": "RelicCavern_Layout",
+      "width": 20,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RelicCavern/border.bin",
+      "blockdata_filepath": "data/layouts/RelicCavern/map.bin"
     }
   ]
 }

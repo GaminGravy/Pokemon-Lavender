@@ -229,9 +229,133 @@ Route102_EventScript_NewSign::
 	return
 
 
+Route102lostBulbasaur_Quest::
+# 122 "data/maps/Route102/scripts.pory"
+	lockall
+# 123 "data/maps/Route102/scripts.pory"
+	goto_if_set FLAG_QUEST_BULBASAUR_0x02B, Route102lostBulbasaur_Quest_1
+# 132 "data/maps/Route102/scripts.pory"
+	msgbox Route102lostBulbasaur_Quest_Text_1
+# 137 "data/maps/Route102/scripts.pory"
+	setflag FLAG_SYS_QUEST_MENU_GET
+# 138 "data/maps/Route102/scripts.pory"
+	startquest QUEST_4
+	return
+
+Route102lostBulbasaur_Quest_1:
+# 125 "data/maps/Route102/scripts.pory"
+	msgbox Route102lostBulbasaur_Quest_Text_0
+# 128 "data/maps/Route102/scripts.pory"
+	giveitem ITEM_SILVER_POWDER
+# 129 "data/maps/Route102/scripts.pory"
+	completequest QUEST_4
+	return
+
+
+Quest_Pikachu::
+# 144 "data/maps/Route102/scripts.pory"
+	lockall
+# 145 "data/maps/Route102/scripts.pory"
+	playmoncry SPECIES_PIKACHU, CRY_MODE_ENCOUNTER
+# 146 "data/maps/Route102/scripts.pory"
+	waitmoncry
+# 147 "data/maps/Route102/scripts.pory"
+	setwildbattle SPECIES_PIKACHU, 9, ITEM_NONE
+# 148 "data/maps/Route102/scripts.pory"
+	dowildbattle
+# 149 "data/maps/Route102/scripts.pory"
+	specialvar VAR_RESULT, GetBattleOutcome
+# 150 "data/maps/Route102/scripts.pory"
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq Quest_Pikachu_2
+Quest_Pikachu_1:
+# 153 "data/maps/Route102/scripts.pory"
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq Quest_Pikachu_5
+Quest_Pikachu_4:
+	end
+
+Quest_Pikachu_2:
+# 151 "data/maps/Route102/scripts.pory"
+	call Defeated_Pikachu
+	goto Quest_Pikachu_1
+
+Quest_Pikachu_5:
+# 154 "data/maps/Route102/scripts.pory"
+	call Defeated_Pikachu
+	goto Quest_Pikachu_4
+
+
+Defeated_Pikachu::
+# 160 "data/maps/Route102/scripts.pory"
+	removeobject 16
+# 161 "data/maps/Route102/scripts.pory"
+	removeobject 15
+# 162 "data/maps/Route102/scripts.pory"
+	removeobject 17
+# 163 "data/maps/Route102/scripts.pory"
+	removeobject 18
+	return
+
+
+Quest_Bulbasaur::
+# 168 "data/maps/Route102/scripts.pory"
+	playmoncry SPECIES_BULBASAUR, CRY_MODE_NORMAL
+# 169 "data/maps/Route102/scripts.pory"
+	waitmoncry
+# 170 "data/maps/Route102/scripts.pory"
+	applymovement 14, BulbasaurLeave
+# 171 "data/maps/Route102/scripts.pory"
+	waitmovement 0
+# 172 "data/maps/Route102/scripts.pory"
+	removeobject 15
+# 173 "data/maps/Route102/scripts.pory"
+	setflag FLAG_QUEST_BULBASAUR_0x02B
+# 174 "data/maps/Route102/scripts.pory"
+	releaseall
+	return
+
+
+# 177 "data/maps/Route102/scripts.pory"
+BulbasaurLeave:
+# 178 "data/maps/Route102/scripts.pory"
+	face_right
+# 179 "data/maps/Route102/scripts.pory"
+	walk_right
+# 179 "data/maps/Route102/scripts.pory"
+	walk_right
+# 180 "data/maps/Route102/scripts.pory"
+	walk_down
+# 181 "data/maps/Route102/scripts.pory"
+	walk_right
+# 181 "data/maps/Route102/scripts.pory"
+	walk_right
+# 181 "data/maps/Route102/scripts.pory"
+	walk_right
+# 181 "data/maps/Route102/scripts.pory"
+	walk_right
+# 181 "data/maps/Route102/scripts.pory"
+	walk_right
+	step_end
+
 Route102_EventScript_NewSign_Text_0:
 # 114 "data/maps/Route102/scripts.pory"
 	.string "Encounters: Patrat, Scatterbug,\n"
 	.string "Machop, Pansear, Spearow, Lotad,\l"
 	.string "Wattrel, Shinx, Sentret, Ralts, Seedot,\l"
 	.string "Chikorita. CATCH EM ALL.$"
+
+Route102lostBulbasaur_Quest_Text_0:
+# 125 "data/maps/Route102/scripts.pory"
+	.string "Thank you so much for your help with\n"
+	.string "returning my Bulbasaur to me I dont\l"
+	.string "have much but I hope this will serve you\l"
+	.string "well in your journey.$"
+
+Route102lostBulbasaur_Quest_Text_1:
+# 132 "data/maps/Route102/scripts.pory"
+	.string "Hello are you a trainer? If so could you\n"
+	.string "please help me I've lost my Bulbasaur\l"
+	.string "somewhere, I think he got lost when we\l"
+	.string "were in Petalburg Woods. if you find him\l"
+	.string "could you give him back to me please$"

@@ -1,0 +1,27 @@
+mapscripts BeedrillGrotto_MapScripts {}
+
+script BeedrillGrotto_EventScript_Mega {
+
+    lockall
+    playmoncry(SPECIES_BEEDRILL_MEGA, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    setflag(FLAG_NOCATCH_0x027)
+    setwildbattle(SPECIES_BEEDRILL_MEGA, 60, ITEM_BEEDRILLITE)
+    dowildbattle
+    specialvar(VAR_RESULT, GetBattleOutcome)
+	if(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(Defeated_Beedrill)
+    }
+    clearflag(FLAG_NOCATCH_0x027)
+    end
+}
+
+script Defeated_Beedrill {
+    removeobject(1)
+	setflag(FLAG_BEEDRILL_0x02A)
+    giveitem(ITEM_BEEDRILLITE)
+    clearflag(FLAG_NOCATCH_0x027)
+    waitmessage
+    releaseall
+	end
+    }

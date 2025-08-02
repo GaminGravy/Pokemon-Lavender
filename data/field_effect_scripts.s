@@ -80,9 +80,14 @@ gFieldEffectScriptPointers::
 	.4byte gFieldEffectScript_TracksBug                 @ FLDEFF_TRACKS_BUG
 	.4byte gFieldEffectScript_TracksSpot                @ FLDEFF_TRACKS_SPOT
 	.4byte gFieldEffectScript_CaveDust                  @ FLDEFF_CAVE_DUST
+	.4byte gFieldEffectScript_QuestIcon					@ FLDEFF_QUEST_ICON
     
 gFieldEffectScript_ExclamationMarkIcon1::
 	field_eff_callnative FldEff_ExclamationMarkIcon
+	field_eff_end
+
+gFieldEffectScript_QuestIcon::
+	field_eff_callnative FldEff_QuestIcon
 	field_eff_end
 
 gFieldEffectScript_UseCutOnTallGrass::

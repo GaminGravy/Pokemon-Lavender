@@ -54,6 +54,7 @@
 #include "constants/trainer_types.h"
 #include "constants/union_room.h"
 #include "constants/weather.h"
+#include "quests.h"
 
 // this file was known as evobjmv.c in Game Freak's original source
 
@@ -168,7 +169,7 @@ static u16 GetObjectEventFlagIdByObjectEventId(u8);
 static void UpdateObjectEventVisibility(struct ObjectEvent *, struct Sprite *);
 static void MakeSpriteTemplateFromObjectEventTemplate(const struct ObjectEventTemplate *, struct SpriteTemplate *, const struct SubspriteTable **);
 static void GetObjectEventMovingCameraOffset(s16 *, s16 *);
-static const struct ObjectEventTemplate *GetObjectEventTemplateByLocalIdAndMap(u8, u8, u8);
+const struct ObjectEventTemplate *GetObjectEventTemplateByLocalIdAndMap(u8, u8, u8);
 static void RemoveObjectEventIfOutsideView(struct ObjectEvent *);
 static void SpawnObjectEventOnReturnToField(u8, s16, s16);
 static void SetPlayerAvatarObjectEventIdAndObjectId(u8, u8);
@@ -1735,6 +1736,8 @@ static u8 TrySpawnObjectEventTemplate(const struct ObjectEventTemplate *objectEv
     gSprites[gObjectEvents[objectEventId].spriteId].images = graphicsInfo->images;
     if (subspriteTables)
         SetSubspriteTables(&gSprites[gObjectEvents[objectEventId].spriteId], subspriteTables);
+    
+    HandleQuestIconForSingleObjectEvent(&gObjectEvents[objectEventId], objectEventId);
 
     return objectEventId;
 }
@@ -2706,6 +2709,8 @@ static void SpawnObjectEventOnReturnToField(u8 objectEventId, s16 x, s16 y)
         ResetObjectEventFldEffData(objectEvent);
         SetObjectSubpriorityByElevation(objectEvent->previousElevation, sprite, 1);
     }
+
+    HandleQuestIconForSingleObjectEvent(objectEvent,objectEventId);
 }
 
 static void ResetObjectEventFldEffData(struct ObjectEvent *objectEvent)
@@ -2718,6 +2723,7 @@ static void ResetObjectEventFldEffData(struct ObjectEvent *objectEvent)
     objectEvent->inShallowFlowingWater = FALSE;
     objectEvent->inSandPile = FALSE;
     objectEvent->inHotSprings = FALSE;
+    ResetQuestIconOnObject(objectEvent);
     ObjectEventClearHeldMovement(objectEvent);
 }
 
@@ -3384,7 +3390,7 @@ u8 GetObjectEventBerryTreeId(u8 objectEventId)
     return gObjectEvents[objectEventId].trainerRange_berryTreeId;
 }
 
-static const struct ObjectEventTemplate *GetObjectEventTemplateByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup)
+const struct ObjectEventTemplate *GetObjectEventTemplateByLocalIdAndMap(u8 localId, u8 mapNum, u8 mapGroup)
 {
     const struct ObjectEventTemplate *templates;
     const struct MapHeader *mapHeader;

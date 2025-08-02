@@ -434,7 +434,12 @@
     "Victory_Cavern",
     "Silken_Hollow",
     "Primitive_Grotto",
-    "TemporalAbyss"
+    "TemporalAbyss",
+    "PinsirGrotto",
+    "BeedrillGrotto",
+    "HeracrossGrotto",
+    "VenusaurGrotto",
+    "RelicCavern"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

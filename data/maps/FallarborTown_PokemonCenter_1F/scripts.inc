@@ -226,3 +226,37 @@ FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees:
 	.string "seedlings of hardy trees that thrive\l"
 # 114 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	.string "even in volcanic ash.$"
+
+Fragments_of_Genesis_Start::
+# 118 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+	lockall
+# 119 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+	msgbox Fragments_of_Genesis_Start_Text_0
+# 135 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+	startquest QUEST_1
+# 136 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+	releaseall
+	return
+
+
+Fragments_of_Genesis_Start_Text_0:
+# 119 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
+	.string "Have you heard the rumors? Of\n"
+	.string "unnatural storms... Sudden silences...\l"
+	.string "Shadows where none should fall... We call\l"
+	.string "it the Genesis Effect. A disturbance in\l"
+	.string "the balance of the world. Something is\l"
+	.string "awakening forces that shouldn't be\l"
+	.string "disturbed. One such being was created\l"
+	.string "in secret hidden behind a wall of lies.\l"
+	.string "This creature wasnt born by nature but\l"
+	.string "by pure evil ambition. It was created in\l"
+	.string "a lab just underneath Mt. Chimney but\l"
+	.string "once it was awoken it went on a frenzy\l"
+	.string "so the project was left abandoned, but\l"
+	.string "recently energy readings have spiked\l"
+	.string "around the area I helped create this\l"
+	.string "monster and I can't bear to see what\l"
+	.string "happens. Please help investigate the\l"
+	.string "lab. Things are unfolding. The\l"
+	.string "Fragments of Genesis are awakening.$"

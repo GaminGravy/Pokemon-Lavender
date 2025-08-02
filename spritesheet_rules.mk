@@ -4920,8 +4920,14 @@ $(POKEMONGFXDIR)/gourgeist/super/overworld.4bpp: %.4bpp: %.png
 $(MISCGFXDIR)/emotes.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
+$(MISCGFXDIR)/quests_icons.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+
 # All pokeballs are 16x32
 $(OBJEVENTGFXDIR)/misc/ball_%.4bpp: $(OBJEVENTGFXDIR)/misc/ball_%.png ; $(GFX) $< $@ -mwidth 2 -mheight 4
 
 graphics/door_anims/battle_tower_multi_corridor.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/misty.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 1 -mheight 4

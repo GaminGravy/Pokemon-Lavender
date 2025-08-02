@@ -12,6 +12,7 @@ enum {
     BOB_JUST_MON,
 };
 
+u32 StartFieldEffectForObjectEvent(u8, struct ObjectEvent *objectEvent);
 u8 CreateWarpArrowSprite(void);
 u8 StartUnderwaterSurfBlobBobbing(u8 oldSpriteId);
 void SetSurfBlob_BobState(u8 spriteId, u8 state);

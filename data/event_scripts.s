@@ -58,6 +58,7 @@
 #include "constants/union_room.h"
 #include "constants/vars.h"
 #include "constants/weather.h"
+#include "constants/quests.h"
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"
 	.include "constants/constants.inc"
@@ -1164,3 +1165,13 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/TemporalAbyss/scripts.inc"
 	.include "data/scripts/dexnav.inc"
+
+	.include "data/maps/PinsirGrotto/scripts.inc"
+
+	.include "data/maps/BeedrillGrotto/scripts.inc"
+
+	.include "data/maps/HeracrossGrotto/scripts.inc"
+
+	.include "data/maps/VenusaurGrotto/scripts.inc"
+
+	.include "data/maps/RelicCavern/scripts.inc"

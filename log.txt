@@ -1,0 +1,341 @@
+/usr/lib/gcc/arm-none-eabi/13.2.1/cc1 -quiet <flags> -o build/modern/src/quests.o src/quests.c
+<stdin>/src/quests.c:14736: error: Failed to open "graphics/quest_menu/menu.bin.lz" for reading.
+
+src/quests.c:208:9: error: expected expression at end of input
+  208 |         INCBIN_U32("graphics/quest_menu/menu.bin.lz");
+      |         ^
+src/quests.c:78:13: warning: 'MainCB' declared 'static' but never defined [-Wunused-function]
+   78 | static void MainCB(void);
+      |             ^~~~~~
+src/quests.c:79:13: warning: 'VBlankCB' declared 'static' but never defined [-Wunused-function]
+   79 | static void VBlankCB(void);
+      |             ^~~~~~~~
+src/quests.c:80:13: warning: 'RunSetup' declared 'static' but never defined [-Wunused-function]
+   80 | static void RunSetup(void);
+      |             ^~~~~~~~
+src/quests.c:82:14: warning: 'SetupGraphics' declared 'static' but never defined [-Wunused-function]
+   82 | static bool8 SetupGraphics(void);
+      |              ^~~~~~~~~~~~~
+src/quests.c:83:14: warning: 'LoadGraphics' declared 'static' but never defined [-Wunused-function]
+   83 | static bool8 LoadGraphics(void);
+      |              ^~~~~~~~~~~~
+src/quests.c:84:13: warning: 'QuestMenu_InitWindows' declared 'static' but never defined [-Wunused-function]
+   84 | static void QuestMenu_InitWindows(void);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:85:14: warning: 'InitBackgrounds' declared 'static' but never defined [-Wunused-function]
+   85 | static bool8 InitBackgrounds(void);
+      |              ^~~~~~~~~~~~~~~
+src/quests.c:86:13: warning: 'InitItems' declared 'static' but never defined [-Wunused-function]
+   86 | static void InitItems(void);
+      |             ^~~~~~~~~
+src/quests.c:87:14: warning: 'AllocateResourcesForListMenu' declared 'static' but never defined [-Wunused-function]
+   87 | static bool8 AllocateResourcesForListMenu(void);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:88:13: warning: 'AllocateMemoryForArray' declared 'static' but never defined [-Wunused-function]
+   88 | static void AllocateMemoryForArray();
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:89:13: warning: 'PlaceTopMenuScrollIndicatorArrows' declared 'static' but never defined [-Wunused-function]
+   89 | static void PlaceTopMenuScrollIndicatorArrows(void);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:90:13: warning: 'SetInitializedFlag' declared 'static' but never defined [-Wunused-function]
+   90 | static void SetInitializedFlag(u8 a0);
+      |             ^~~~~~~~~~~~~~~~~~
+src/quests.c:92:11: warning: 'GetCursorPosition' declared 'static' but never defined [-Wunused-function]
+   92 | static u8 GetCursorPosition(void);
+      |           ^~~~~~~~~~~~~~~~~
+src/quests.c:93:13: warning: 'SetCursorPosition' declared 'static' but never defined [-Wunused-function]
+   93 | static void SetCursorPosition(void);
+      |             ^~~~~~~~~~~~~~~~~
+src/quests.c:94:13: warning: 'SetScrollPosition' declared 'static' but never defined [-Wunused-function]
+   94 | static void SetScrollPosition(void);
+      |             ^~~~~~~~~~~~~~~~~
+src/quests.c:95:14: warning: 'IfScrollIsOutOfBounds' declared 'static' but never defined [-Wunused-function]
+   95 | static bool8 IfScrollIsOutOfBounds(void);
+      |              ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:96:14: warning: 'IfRowIsOutOfBounds' declared 'static' but never defined [-Wunused-function]
+   96 | static bool8 IfRowIsOutOfBounds(void);
+      |              ^~~~~~~~~~~~~~~~~~
+src/quests.c:97:13: warning: 'SaveScrollAndRow' declared 'static' but never defined [-Wunused-function]
+   97 | static void SaveScrollAndRow(s16 *data);
+      |             ^~~~~~~~~~~~~~~~
+src/quests.c:99:13: warning: 'ClearModeOnStartup' declared 'static' but never defined [-Wunused-function]
+   99 | static void ClearModeOnStartup(void);
+      |             ^~~~~~~~~~~~~~~~~~
+src/quests.c:100:11: warning: 'ManageMode' declared 'static' but never defined [-Wunused-function]
+  100 | static u8 ManageMode(u8 action);
+      |           ^~~~~~~~~~
+src/quests.c:101:11: warning: 'ToggleAlphaMode' declared 'static' but never defined [-Wunused-function]
+  101 | static u8 ToggleAlphaMode(u8 mode);
+      |           ^~~~~~~~~~~~~~~
+src/quests.c:102:11: warning: 'ToggleSubquestMode' declared 'static' but never defined [-Wunused-function]
+  102 | static u8 ToggleSubquestMode(u8 mode);
+      |           ^~~~~~~~~~~~~~~~~~
+src/quests.c:103:11: warning: 'IncrementMode' declared 'static' but never defined [-Wunused-function]
+  103 | static u8 IncrementMode(u8 mode);
+      |           ^~~~~~~~~~~~~
+src/quests.c:104:14: warning: 'IsSubquestMode' declared 'static' but never defined [-Wunused-function]
+  104 | static bool8 IsSubquestMode(void);
+      |              ^~~~~~~~~~~~~~
+src/quests.c:105:14: warning: 'IsNotFilteredMode' declared 'static' but never defined [-Wunused-function]
+  105 | static bool8 IsNotFilteredMode(void);
+      |              ^~~~~~~~~~~~~~~~~
+src/quests.c:106:14: warning: 'IsAlphaMode' declared 'static' but never defined [-Wunused-function]
+  106 | static bool8 IsAlphaMode(void);
+      |              ^~~~~~~~~~~
+src/quests.c:108:13: warning: 'BuildMenuTemplate' declared 'static' but never defined [-Wunused-function]
+  108 | static void BuildMenuTemplate(void);
+      |             ^~~~~~~~~~~~~~~~~
+src/quests.c:109:11: warning: 'GetModeAndGenerateList' declared 'static' but never defined [-Wunused-function]
+  109 | static u8 GetModeAndGenerateList();
+      |           ^~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:110:11: warning: 'CountNumberListRows' declared 'static' but never defined [-Wunused-function]
+  110 | static u8 CountNumberListRows();
+      |           ^~~~~~~~~~~~~~~~~~~
+src/quests.c:111:12: warning: 'DefineQuestOrder' declared 'static' but never defined [-Wunused-function]
+  111 | static u8 *DefineQuestOrder();
+      |            ^~~~~~~~~~~~~~~~
+src/quests.c:112:11: warning: 'GenerateSubquestList' declared 'static' but never defined [-Wunused-function]
+  112 | static u8 GenerateSubquestList();
+      |           ^~~~~~~~~~~~~~~~~~~~
+src/quests.c:113:11: warning: 'GenerateList' declared 'static' but never defined [-Wunused-function]
+  113 | static u8 GenerateList(bool8 isFiltered);
+      |           ^~~~~~~~~~~~
+src/quests.c:114:13: warning: 'AssignCancelNameAndId' declared 'static' but never defined [-Wunused-function]
+  114 | static void AssignCancelNameAndId(u8 numRow);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:116:11: warning: 'CountUnlockedQuests' declared 'static' but never defined [-Wunused-function]
+  116 | static u8 CountUnlockedQuests(void);
+      |           ^~~~~~~~~~~~~~~~~~~
+src/quests.c:117:11: warning: 'CountInactiveQuests' declared 'static' but never defined [-Wunused-function]
+  117 | static u8 CountInactiveQuests(void);
+      |           ^~~~~~~~~~~~~~~~~~~
+src/quests.c:118:11: warning: 'CountActiveQuests' declared 'static' but never defined [-Wunused-function]
+  118 | static u8 CountActiveQuests(void);
+      |           ^~~~~~~~~~~~~~~~~
+src/quests.c:119:11: warning: 'CountRewardQuests' declared 'static' but never defined [-Wunused-function]
+  119 | static u8 CountRewardQuests(void);
+      |           ^~~~~~~~~~~~~~~~~
+src/quests.c:120:11: warning: 'CountCompletedQuests' declared 'static' but never defined [-Wunused-function]
+  120 | static u8 CountCompletedQuests(void);
+      |           ^~~~~~~~~~~~~~~~~~~~
+src/quests.c:121:11: warning: 'CountFavoriteQuests' declared 'static' but never defined [-Wunused-function]
+  121 | static u8 CountFavoriteQuests(void);
+      |           ^~~~~~~~~~~~~~~~~~~
+src/quests.c:123:13: warning: 'PopulateEmptyRow' declared 'static' but never defined [-Wunused-function]
+  123 | static void PopulateEmptyRow(u8 countQuest);
+      |             ^~~~~~~~~~~~~~~~
+src/quests.c:124:13: warning: 'PrependQuestNumber' declared 'static' but never defined [-Wunused-function]
+  124 | static void PrependQuestNumber(u8 countQuest);
+      |             ^~~~~~~~~~~~~~~~~~
+src/quests.c:125:13: warning: 'SetFavoriteQuest' declared 'static' but never defined [-Wunused-function]
+  125 | static void SetFavoriteQuest(u8 countQuest);
+      |             ^~~~~~~~~~~~~~~~
+src/quests.c:126:13: warning: 'PopulateQuestName' declared 'static' but never defined [-Wunused-function]
+  126 | static void PopulateQuestName(u8 countQuest);
+      |             ^~~~~~~~~~~~~~~~~
+src/quests.c:127:13: warning: 'PopulateSubquestName' declared 'static' but never defined [-Wunused-function]
+  127 | static void PopulateSubquestName(u8 parentQuest, u8 countQuest);
+      |             ^~~~~~~~~~~~~~~~~~~~
+src/quests.c:128:13: warning: 'PopulateListRowNameAndId' declared 'static' but never defined [-Wunused-function]
+  128 | static void PopulateListRowNameAndId(u8 row, u8 countQuest);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:129:14: warning: 'DoesQuestHaveChildrenAndNotInactive' declared 'static' but never defined [-Wunused-function]
+  129 | static bool8 DoesQuestHaveChildrenAndNotInactive(u16 itemId);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:130:13: warning: 'AddSubQuestButton' declared 'static' but never defined [-Wunused-function]
+  130 | static void AddSubQuestButton(u8 countQuest);
+      |             ^~~~~~~~~~~~~~~~~
+src/quests.c:132:13: warning: 'QuestMenu_AddTextPrinterParameterized' declared 'static' but never defined [-Wunused-function]
+  132 | static void QuestMenu_AddTextPrinterParameterized(u8 windowId, u8 fontId,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:136:13: warning: 'MoveCursorFunc' declared 'static' but never defined [-Wunused-function]
+  136 | static void MoveCursorFunc(s32 itemIndex, bool8 onInit,
+      |             ^~~~~~~~~~~~~~
+src/quests.c:138:13: warning: 'PlayCursorSound' declared 'static' but never defined [-Wunused-function]
+  138 | static void PlayCursorSound(bool8 firstRun);
+      |             ^~~~~~~~~~~~~~~
+src/quests.c:139:13: warning: 'PrintDetailsForCancel' declared 'static' but never defined [-Wunused-function]
+  139 | static void PrintDetailsForCancel();
+      |             ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:140:13: warning: 'GenerateAndPrintQuestDetails' declared 'static' but never defined [-Wunused-function]
+  140 | static void GenerateAndPrintQuestDetails(s32 questId);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:141:13: warning: 'GenerateQuestLocation' declared 'static' but never defined [-Wunused-function]
+  141 | static void GenerateQuestLocation(s32 questId);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:142:13: warning: 'PrintQuestLocation' declared 'static' but never defined [-Wunused-function]
+  142 | static void PrintQuestLocation(s32 questId);
+      |             ^~~~~~~~~~~~~~~~~~
+src/quests.c:143:13: warning: 'GenerateQuestFlavorText' declared 'static' but never defined [-Wunused-function]
+  143 | static void GenerateQuestFlavorText(s32 questId);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:144:13: warning: 'UpdateQuestFlavorText' declared 'static' but never defined [-Wunused-function]
+  144 | static void UpdateQuestFlavorText(s32 questId);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:145:13: warning: 'PrintQuestFlavorText' declared 'static' but never defined [-Wunused-function]
+  145 | static void PrintQuestFlavorText(s32 questId);
+      |             ^~~~~~~~~~~~~~~~~~~~
+src/quests.c:147:14: warning: 'IsQuestUnlocked' declared 'static' but never defined [-Wunused-function]
+  147 | static bool8 IsQuestUnlocked(s32 questId);
+      |              ^~~~~~~~~~~~~~~
+src/quests.c:148:14: warning: 'IsQuestActiveState' declared 'static' but never defined [-Wunused-function]
+  148 | static bool8 IsQuestActiveState(s32 questId);
+      |              ^~~~~~~~~~~~~~~~~~
+src/quests.c:149:14: warning: 'IsQuestInactiveState' declared 'static' but never defined [-Wunused-function]
+  149 | static bool8 IsQuestInactiveState(s32 questId);
+      |              ^~~~~~~~~~~~~~~~~~~~
+src/quests.c:150:14: warning: 'IsQuestRewardState' declared 'static' but never defined [-Wunused-function]
+  150 | static bool8 IsQuestRewardState(s32 questId);
+      |              ^~~~~~~~~~~~~~~~~~
+src/quests.c:151:14: warning: 'IsQuestCompletedState' declared 'static' but never defined [-Wunused-function]
+  151 | static bool8 IsQuestCompletedState(s32 questId);
+      |              ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:152:14: warning: 'IsSubquestCompletedState' declared 'static' but never defined [-Wunused-function]
+  152 | static bool8 IsSubquestCompletedState(s32 questId);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:154:13: warning: 'DetermineSpriteType' declared 'static' but never defined [-Wunused-function]
+  154 | static void DetermineSpriteType(s32 questId);
+      |             ^~~~~~~~~~~~~~~~~~~
+src/quests.c:155:13: warning: 'QuestMenu_CreateSprite' declared 'static' but never defined [-Wunused-function]
+  155 | static void QuestMenu_CreateSprite(u16 itemId, u8 idx, u8 spriteType);
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:156:13: warning: 'ResetSpriteState' declared 'static' but never defined [-Wunused-function]
+  156 | static void ResetSpriteState(void);
+      |             ^~~~~~~~~~~~~~~~
+src/quests.c:157:13: warning: 'QuestMenu_DestroySprite' declared 'static' but never defined [-Wunused-function]
+  157 | static void QuestMenu_DestroySprite(u8 idx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:159:13: warning: 'GenerateStateAndPrint' declared 'static' but never defined [-Wunused-function]
+  159 | static void GenerateStateAndPrint(u8 windowId, u32 itemId, u8 y);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:160:11: warning: 'GenerateSubquestState' declared 'static' but never defined [-Wunused-function]
+  160 | static u8 GenerateSubquestState(u8 questId);
+      |           ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:161:11: warning: 'GenerateQuestState' declared 'static' but never defined [-Wunused-function]
+  161 | static u8 GenerateQuestState(u8 questId);
+      |           ^~~~~~~~~~~~~~~~~~
+src/quests.c:162:13: warning: 'PrintQuestState' declared 'static' but never defined [-Wunused-function]
+  162 | static void PrintQuestState(u8 windowId, u8 y, u8 colorIndex);
+      |             ^~~~~~~~~~~~~~~
+src/quests.c:164:13: warning: 'GenerateAndPrintHeader' declared 'static' but never defined [-Wunused-function]
+  164 | static void GenerateAndPrintHeader(void);
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:165:13: warning: 'GenerateDenominatorNumQuests' declared 'static' but never defined [-Wunused-function]
+  165 | static void GenerateDenominatorNumQuests(void);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:166:13: warning: 'GenerateNumeratorNumQuests' declared 'static' but never defined [-Wunused-function]
+  166 | static void GenerateNumeratorNumQuests(void);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:167:13: warning: 'GenerateMenuContext' declared 'static' but never defined [-Wunused-function]
+  167 | static void GenerateMenuContext(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+src/quests.c:168:13: warning: 'PrintNumQuests' declared 'static' but never defined [-Wunused-function]
+  168 | static void PrintNumQuests(void);
+      |             ^~~~~~~~~~~~~~
+src/quests.c:169:13: warning: 'PrintMenuContext' declared 'static' but never defined [-Wunused-function]
+  169 | static void PrintMenuContext(void);
+      |             ^~~~~~~~~~~~~~~~
+src/quests.c:170:13: warning: 'PrintTypeFilterButton' declared 'static' but never defined [-Wunused-function]
+  170 | static void PrintTypeFilterButton(void);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:172:13: warning: 'Task_Main' declared 'static' but never defined [-Wunused-function]
+  172 | static void Task_Main(u8 taskId);
+      |             ^~~~~~~~~
+src/quests.c:173:13: warning: 'ManageFavorites' declared 'static' but never defined [-Wunused-function]
+  173 | static void ManageFavorites(u8 index);
+      |             ^~~~~~~~~~~~~~~
+src/quests.c:174:13: warning: 'Task_QuestMenuCleanUp' declared 'static' but never defined [-Wunused-function]
+  174 | static void Task_QuestMenuCleanUp(u8 taskId);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:175:13: warning: 'RestoreSavedScrollAndRow' declared 'static' but never defined [-Wunused-function]
+  175 | static void RestoreSavedScrollAndRow(s16 *data);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:176:13: warning: 'ResetCursorToTop' declared 'static' but never defined [-Wunused-function]
+  176 | static void ResetCursorToTop(s16 *data);
+      |             ^~~~~~~~~~~~~~~~
+src/quests.c:177:13: warning: 'QuestMenu_RemoveScrollIndicatorArrowPair' declared 'static' but never defined [-Wunused-function]
+  177 | static void QuestMenu_RemoveScrollIndicatorArrowPair(void);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:178:13: warning: 'EnterSubquestModeAndCleanUp' declared 'static' but never defined [-Wunused-function]
+  178 | static void EnterSubquestModeAndCleanUp(u8 taskId, s16 *data, s32 input);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:179:13: warning: 'ChangeModeAndCleanUp' declared 'static' but never defined [-Wunused-function]
+  179 | static void ChangeModeAndCleanUp(u8 taskId);
+      |             ^~~~~~~~~~~~~~~~~~~~
+src/quests.c:180:13: warning: 'ToggleAlphaModeAndCleanUp' declared 'static' but never defined [-Wunused-function]
+  180 | static void ToggleAlphaModeAndCleanUp(u8 taskId);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:181:13: warning: 'ToggleFavoriteAndCleanUp' declared 'static' but never defined [-Wunused-function]
+  181 | static void ToggleFavoriteAndCleanUp(u8 taskId, u8 selectedQuestId);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:182:14: warning: 'CheckSelectedIsCancel' declared 'static' but never defined [-Wunused-function]
+  182 | static bool8 CheckSelectedIsCancel(u8 selectedQuestId);
+      |              ^~~~~~~~~~~~~~~~~~~~~
+src/quests.c:183:13: warning: 'ReturnFromSubquestAndCleanUp' declared 'static' but never defined [-Wunused-function]
+  183 | static void ReturnFromSubquestAndCleanUp(u8 taskId);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:185:13: warning: 'SetGpuRegBaseForFade' declared 'static' but never defined [-Wunused-function]
+  185 | static void SetGpuRegBaseForFade(void);
+      |             ^~~~~~~~~~~~~~~~~~~~
+src/quests.c:186:13: warning: 'InitFadeVariables' declared 'static' but never defined [-Wunused-function]
+  186 | static void InitFadeVariables(u8 taskId, u8 blendWeight, u8 frameDelay,
+      |             ^~~~~~~~~~~~~~~~~
+src/quests.c:188:13: warning: 'PrepareFadeOut' declared 'static' but never defined [-Wunused-function]
+  188 | static void PrepareFadeOut(u8 taskId);
+      |             ^~~~~~~~~~~~~~
+src/quests.c:189:14: warning: 'HandleFadeOut' declared 'static' but never defined [-Wunused-function]
+  189 | static bool8 HandleFadeOut(u8 taskId);
+      |              ^~~~~~~~~~~~~
+src/quests.c:190:13: warning: 'PrepareFadeIn' declared 'static' but never defined [-Wunused-function]
+  190 | static void PrepareFadeIn(u8 taskId);
+      |             ^~~~~~~~~~~~~
+src/quests.c:191:14: warning: 'HandleFadeIn' declared 'static' but never defined [-Wunused-function]
+  191 | static bool8 HandleFadeIn(u8 taskId);
+      |              ^~~~~~~~~~~~
+src/quests.c:192:13: warning: 'Task_FadeOut' declared 'static' but never defined [-Wunused-function]
+  192 | static void Task_FadeOut(u8 taskId);
+      |             ^~~~~~~~~~~~
+src/quests.c:193:13: warning: 'Task_FadeIn' declared 'static' but never defined [-Wunused-function]
+  193 | static void Task_FadeIn(u8 taskId);
+      |             ^~~~~~~~~~~
+src/quests.c:195:13: warning: 'Task_QuestMenuWaitFadeAndBail' declared 'static' but never defined [-Wunused-function]
+  195 | static void Task_QuestMenuWaitFadeAndBail(u8 taskId);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:196:13: warning: 'FadeAndBail' declared 'static' but never defined [-Wunused-function]
+  196 | static void FadeAndBail(void);
+      |             ^~~~~~~~~~~
+src/quests.c:197:13: warning: 'FreeResources' declared 'static' but never defined [-Wunused-function]
+  197 | static void FreeResources(void);
+      |             ^~~~~~~~~~~~~
+src/quests.c:198:13: warning: 'TurnOffQuestMenu' declared 'static' but never defined [-Wunused-function]
+  198 | static void TurnOffQuestMenu(u8 taskId);
+      |             ^~~~~~~~~~~~~~~~
+src/quests.c:199:13: warning: 'Task_QuestMenuTurnOff1' declared 'static' but never defined [-Wunused-function]
+  199 | static void Task_QuestMenuTurnOff1(u8 taskId);
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:200:13: warning: 'Task_QuestMenuTurnOff2' declared 'static' but never defined [-Wunused-function]
+  200 | static void Task_QuestMenuTurnOff2(u8 taskId);
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:74:47: warning: 'questNameArray' defined but not used [-Wunused-variable]
+   74 | EWRAM_DATA static u8 **questNameArray = NULL;
+      |                                               ^             
+src/quests.c:73:48: warning: 'questNamePointer' defined but not used [-Wunused-variable]
+   73 | EWRAM_DATA static void *questNamePointer = NULL;
+      |                                                ^               
+src/quests.c:72:45: warning: 'sItemMenuIconSpriteIds' defined but not used [-Wunused-variable]
+   72 | EWRAM_DATA static u8 sItemMenuIconSpriteIds[12] = {0};        // from pokefirered src/item_menu_icons.c
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~
+src/quests.c:71:74: warning: 'sListMenuState' defined but not used [-Wunused-variable]
+   71 | EWRAM_DATA static struct QuestMenuStaticResources sListMenuState = {0};
+      |                                                                          ^             
+src/quests.c:70:63: warning: 'sListMenuItems' defined but not used [-Wunused-variable]
+   70 | EWRAM_DATA static struct ListMenuItem *sListMenuItems = NULL;
+      |                                                               ^             
+src/quests.c:69:46: warning: 'sBg1TilemapBuffer' defined but not used [-Wunused-variable]
+   69 | EWRAM_DATA static u8 *sBg1TilemapBuffer = NULL;
+      |                                              ^~               
+src/quests.c:68:69: warning: 'sStateDataPtr' defined but not used [-Wunused-variable]
+   68 | EWRAM_DATA static struct QuestMenuResources *sStateDataPtr = NULL;
+      |                                                                     ^            
+make: *** [Makefile:370: build/modern/src/quests.o] Error 1
+make: *** Deleting file 'build/modern/src/quests.o'
