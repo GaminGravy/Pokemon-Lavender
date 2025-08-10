@@ -6,7 +6,6 @@
 
     .bss
     .align 2
-	
 gMPlayTrack_BGM::
     .space TRACK_SIZE * NUM_TRACKS_BGM
     .size gMPlayTrack_BGM, .-gMPlayTrack_BGM

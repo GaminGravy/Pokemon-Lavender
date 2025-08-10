@@ -112,3 +112,25 @@ FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
 	.string "It's really nifty! Those DEVON guys\n"
 # 57 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
 	.string "sure know what they're doing!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_8::
+# 62 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+	trainerbattle_single TRAINER_EXP_8, RustboroCity_PokemonCenter_EXP_TRAINER_8_Intro, RustboroCity_PokemonCenter_EXP_TRAINER_8_Outro
+# 63 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+	msgbox RustboroCity_PokemonCenter_EXP_TRAINER_8_PostBattle, MSGBOX_AUTOCLOSE
+# 64 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+	cleartrainerflag TRAINER_EXP_8
+	end
+
+
+RustboroCity_PokemonCenter_EXP_TRAINER_8_Intro::
+# 68 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+	.string "Fight me for EXP!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_8_Outro::
+# 72 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+	.string "Dont worry you can't overlevel!$"
+
+RustboroCity_PokemonCenter_EXP_TRAINER_8_PostBattle::
+# 76 "data/maps/FortreeCity_PokemonCenter_1F/scripts.pory"
+	.string "You can always rebattle me!$"
