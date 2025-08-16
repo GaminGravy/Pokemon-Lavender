@@ -1,0 +1,43 @@
+{
+  "id": "MAP_MT_PYRE_7F",
+  "name": "MT_PYRE_7F",
+  "layout": "LAYOUT_MT_PYRE_7F",
+  "music": "MUS_MT_PYRE",
+  "region_map_section": "MAPSEC_MT_PYRE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(GENGAR)",
+      "x": 3,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_QUEST_GIVER",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "When_Shadows_Smile",
+      "flag": "0",
+      "questID": 1
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_MT_PYRE_6F",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

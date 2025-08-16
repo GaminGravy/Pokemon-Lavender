@@ -131,3 +131,28 @@ Route121_SafariZoneEntrance_EventScript_TrainerTipSign::
 	end
 
 `
+script Whispers_of_The_White_Fox {
+	lockall
+	if(flag(FLAG_WHITE_FOX_0x035))
+	{
+		msgbox(format("Thank you for your help.
+		These poachers are always up to no good
+		I'm sure Zorua thanks you dearly."))
+		completequest(QUEST_7)
+		giveitem(ITEM_SILK_SCARF)
+		giveitem(ITEM_SPELL_TAG)
+		giveitem(ITEM_CHOICE_SCARF)
+		giveitem(ITEM_CHOICE_BAND)
+		giveitem(ITEM_CHOICE_SPECS)
+}
+		else{
+	msgbox(format("Young trainer,
+	this area is a preservation zone
+	of Pokemon found in their native lands,
+	all here. In one place.
+	There have been some sightings of a white fox.
+	Humans try to hunt it to gather intel on its abilities.
+	Please protect it."))
+	startquest(QUEST_7)
+		}
+}

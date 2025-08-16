@@ -1,0 +1,119 @@
+mapscripts FakeLittlerootHouse_MapScripts {}
+
+script Daughter {
+    faceplayer
+    if(flag(FLAG_ZIGZAGOON_0x036))
+    {
+        msgbox(format("Thank you so much {PLAYER} you're the best
+        parent any girl could ever ask for! Me and mom were going to
+        play in my room. Can you play with us pleeeeaseee"))
+        setflag(FLAG_DAUGHTER_0x039)
+        applymovement(1, DaughterLeave)
+        waitmovement(0)
+        removeobject(1)
+        setflag(FLAG_WIFE_0x03A)
+        applymovement(2, WifeLeave)
+        waitmovement(0)
+        removeobject(2)
+        releaseall
+    }
+    else{
+        msgbox(format("You're finally home.
+        We've missed you so much, did you become
+        the Champion like you wanted?
+        Can you tuck me into bed at night again?
+        Will you have time for me and Mom?
+        Mom said when you got back you'd catch me
+        my very first pokemon. Can you pleeeeaseee?
+        Mom gave me some pokeballs in case you dont
+        have any."))
+        giveitem(ITEM_ULTRA_BALL, 10)
+        releaseall
+    }
+}
+
+script Wife {
+    faceplayer
+    msgbox(format("Hey honey!
+    I'm so happy you're back.
+    I've missed you so much our daughter really
+    wants her first pokemon could you please talk to her
+    and catch one for her. You are a Pokemon master
+    afterall."))
+    releaseall
+}
+
+movement DaughterLeave {
+    walk_up * 3
+    walk_right * 3
+    walk_up * 1
+}
+
+
+
+
+
+movement WifeLeave {
+    walk_right * 7
+    walk_up * 1
+}
+
+script Zigzagoon {
+    faceplayer
+    lockall
+    playmoncry(SPECIES_ZIGZAGOON, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    setwildbattle(SPECIES_ZIGZAGOON, 5, ITEM_NONE)
+    dowildbattle
+    specialvar(VAR_RESULT, GetBattleOutcome)
+	if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
+        call(Caught_Zigzagoon)}
+}
+
+script Caught_Zigzagoon {
+    removeobject(1)
+    setflag(FLAG_ZIGZAGOON_0x036)
+}
+
+script Gengar_MEGA {
+    faceplayer
+    setflag(FLAG_NOCATCH_0x027)
+    playmoncry(SPECIES_GENGAR_MEGA, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    setwildbattle(SPECIES_GENGAR_MEGA, 65, ITEM_NONE)
+    dowildbattle
+    specialvar(VAR_RESULT, GetBattleOutcome)
+	if(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(BEAT_GENGAR)}
+    clearflag(FLAG_NOCATCH_0x027)
+}
+
+script Wife_Daughter {
+    lockall
+    msgbox(format("Oh... It's fading.
+    Your face.. It's getting further away.
+    I'm so glad we met here, even for just a moment.
+    Promise me.. You'll keep smiling even without me...
+    I love you always."))
+    completequest(QUEST_9)
+    warpsilent(MAP_MT_PYRE_7F, 3, 17)
+}
+
+script Daughter_2 {
+    faceplayer
+    lockall
+    msgbox(format("{PLAYER}...
+    I'm so cold.
+    Can we play again tomorrow?
+    ..oh I guess there is no tomorrow here.
+    I'll miss you so much"))
+    releaseall
+}
+
+script BEAT_GENGAR {
+    clearflag(FLAG_NOCATCH_0x027)
+    setflag(FLAG_GENGAR_0x03B)
+    removeobject(3)
+    giveitem(ITEM_GENGARITE)
+    releaseall
+}

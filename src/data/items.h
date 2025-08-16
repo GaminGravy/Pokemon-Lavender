@@ -8228,13 +8228,8 @@ const struct Item gItemsInfo[] =
     [ITEM_WHITE_HERB] =
     {
         .name = _("White Herb"),
-<<<<<<< HEAD
         .price = (I_PRICE >= GEN_9) ? 5000 : ((I_PRICE >= GEN_7) ? 4000 : 100),
-        .holdEffect = HOLD_EFFECT_RESTORE_STATS,
-=======
-        .price = (I_PRICE >= GEN_9) ? 20000 : ((I_PRICE >= GEN_7) ? 4000 : 100),
         .holdEffect = HOLD_EFFECT_WHITE_HERB,
->>>>>>> efa2fb3be7ba31d2487990259b466d5095a04a9a
         .description = COMPOUND_STRING(
             "A hold item that\n"
             "restores any\n"

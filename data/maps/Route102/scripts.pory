@@ -167,9 +167,10 @@ script Defeated_Pikachu {
 script Quest_Bulbasaur {
 	playmoncry(SPECIES_BULBASAUR, CRY_MODE_NORMAL)
 	waitmoncry
+	setflag(FLAG_REMOVE_BULBASAUR_0x02E)
 	applymovement(14, BulbasaurLeave)
 	waitmovement(0)
-	removeobject(15)
+	removeobject(14)
 	setflag(FLAG_QUEST_BULBASAUR_0x02B)
 	releaseall
 }
@@ -178,6 +179,6 @@ movement BulbasaurLeave {
 	face_right
 	walk_right * 2
 	walk_down * 1
-	walk_right * 5
+	walk_right * 6
 
 }

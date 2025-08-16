@@ -2803,3 +2803,10 @@
     subquestmenu QUEST_MENU_CHECK_COMPLETE \parent \child
     call_if_eq VAR_RESULT, FALSE, \dest
     .endm
+
+	.macro debugprint str:req, numOrVar=65535
+	callnative ScrCmd_debugprint
+	.4byte \str
+	.2byte \numOrVar
+	.endm
+

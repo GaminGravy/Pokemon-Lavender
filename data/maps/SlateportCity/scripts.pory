@@ -1377,3 +1377,71 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "the perfect fit for the BATTLE TENT!\p"
 	.string "Give it your best effort!$"
 `
+
+script Cats_Out_of_the_Bag {
+	lockall
+	if(flag(FLAG_CATS_OUT_OF_THE_BAG_0x037))
+	{
+	msgbox(format("Oh my gosh I can't Believe you found it!
+	Was it true? Did that thieving cat take it?"), MSGBOX_YESNO)
+	if(var(VAR_RESULT) == YES){
+        call(Cats_Out_of_the_Bag_Truth)
+    }
+	if(var(VAR_RESULT) == NO){
+        call(Cats_Out_of_the_Bag_Lie)
+	}
+	}
+	else{
+		msgbox(format("Please I need your help!
+		My missing Gold Locket is gone!
+		Could you help me find it please?
+		Someone told me a talking Meowth took it but
+		I probably just lost it somewhere.
+		Please tell me if Meowth took it I'll repay your efforts."))
+		startquest(QUEST_10)
+}
+}
+
+script Cats_Out_of_the_Bag_Lie {
+	msgbox(format("Hmm OK... Doesn't seem like something
+	I'd do but I trust you..."))
+	setflag(FLAG_LIED_0x038)
+	releaseall
+}
+
+script Cats_Out_of_the_Bag_Truth {
+	msgbox(format("Oh thank you thank you so much!
+	I can't believe that thieving cat and those two idiots.
+	please take these as a token of my appreciation."))
+	giveitem(ITEM_AMULET_COIN)
+	giveitem(ITEM_SOOTHE_BELL)
+	completequest(QUEST_10)
+}
+
+script Meowth {
+	if(flag(FLAG_LIED_0x038))
+	{
+		msgbox(format("You're not such a bad
+		twerp after all. Here."))
+		giveitem(ITEM_RARE_CANDY, 10)
+		completequest(QUEST_10)
+	}
+	else{
+	msgbox(format("A golden necklace?
+	Yeah I have it right here. This'll fetch a pretty
+	penny for the boss. If you want it back take it back!"))
+	trainerbattle_single(TRAINER_JESSIE_JAMES, JESSIE_JAMES_Intro, JESSIE_JAMES_Outro)
+	setflag(FLAG_CATS_OUT_OF_THE_BAG_0x037)
+	msgbox(format("Please don't tell her I took it.
+	If you dont I'll give you something good!"))
+	}
+}	
+
+
+text JESSIE_JAMES_Intro {
+	"Prepare for trouble!"
+}
+
+text JESSIE_JAMES_Outro {
+	"We're blasting off again!."
+}

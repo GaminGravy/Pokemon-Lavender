@@ -4930,4 +4930,4 @@ graphics/door_anims/battle_tower_multi_corridor.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/misty.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 1 -mheight 4
+	$(GFX) $< $@ -mwidth 2 -mheight 4

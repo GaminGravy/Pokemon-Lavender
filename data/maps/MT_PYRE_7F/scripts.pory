@@ -1,0 +1,12 @@
+mapscripts MT_PYRE_7F_MapScripts {}
+
+script When_Shadows_Smile {
+    startquest(QUEST_9)
+    playmoncry(SPECIES_GENGAR_MEGA, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    setflag(FLAG_NOCATCH_0x027)
+    setwildbattle(SPECIES_GENGAR_MEGA, 60, ITEM_HERACRONITE)
+    dowildbattle
+    clearflag(FLAG_NOCATCH_0x027)
+    warpsilent(MAP_FAKE_LITTLEROOT_HOUSE, 8, 8)
+}

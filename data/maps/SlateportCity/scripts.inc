@@ -1,3 +1,52 @@
+# 1 "data/maps/SlateportCity/scripts.pory"
+
+# 2 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_FAT_MAN, 1
+# 3 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_MAN_1, 2
+# 4 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_RICH_BOY, 3
+# 5 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_1, 5
+# 6 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_COOK, 6
+# 7 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_OLD_WOMAN, 7
+# 8 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GIRL, 8
+# 9 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_TY, 9
+# 10 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GABBY, 10
+# 11 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_CAPT_STERN, 11
+# 12 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_2, 18
+# 13 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_3, 19
+# 14 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_4, 26
+# 15 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_5, 27
+# 16 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_6, 28
+# 17 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_7, 29
+# 18 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_8, 30
+# 19 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_9, 31
+# 20 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_GRUNT_11, 33
+# 21 "data/maps/SlateportCity/scripts.pory"
+.set LOCALID_SCOTT, 35
+# 22 "data/maps/SlateportCity/scripts.pory"
+
+# 23 "data/maps/SlateportCity/scripts.pory"
+@ Note: LOCALID_SLATEPORT_ENERGY_GURU is a local id for this map used elsewhere. It's defined in event_objects.h
+# 24 "data/maps/SlateportCity/scripts.pory"
+
+# 25 "data/maps/SlateportCity/scripts.pory"
 SlateportCity_MapScripts::
 # 26 "data/maps/SlateportCity/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, SlateportCity_OnTransition
@@ -35,20 +84,35 @@ SlateportCity_EventScript_EnterSlateport::
 
 # 43 "data/maps/SlateportCity/scripts.pory"
 SlateportCity_EventScript_MovePeopleForSternInterview::
-	setobjectxyperm LOCALID_SLATEPORT_CAPT_STERN, 28, 13
-	setobjectxyperm LOCALID_SLATEPORT_OLD_WOMAN, 25, 13
-	setobjectxyperm LOCALID_SLATEPORT_RICH_BOY, 25, 14
-	setobjectxyperm LOCALID_SLATEPORT_COOK, 27, 16
-	setobjectxyperm LOCALID_SLATEPORT_GIRL, 28, 16
-	setobjectxyperm LOCALID_SLATEPORT_FAT_MAN, 29, 16
-	setobjectxyperm LOCALID_SLATEPORT_MAN_1, 31, 14
-	setobjectmovementtype LOCALID_SLATEPORT_CAPT_STERN, MOVEMENT_TYPE_FACE_DOWN
-	setobjectmovementtype LOCALID_SLATEPORT_OLD_WOMAN, MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT
-	setobjectmovementtype LOCALID_SLATEPORT_RICH_BOY, MOVEMENT_TYPE_FACE_UP_AND_RIGHT
-	setobjectmovementtype LOCALID_SLATEPORT_COOK, MOVEMENT_TYPE_FACE_UP
-	setobjectmovementtype LOCALID_SLATEPORT_GIRL, MOVEMENT_TYPE_FACE_UP
-	setobjectmovementtype LOCALID_SLATEPORT_FAT_MAN, MOVEMENT_TYPE_FACE_UP
-	setobjectmovementtype LOCALID_SLATEPORT_MAN_1, MOVEMENT_TYPE_FACE_LEFT
+# 44 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_CAPT_STERN, 28, 13
+# 45 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_OLD_WOMAN, 25, 13
+# 46 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_RICH_BOY, 25, 14
+# 47 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_COOK, 27, 16
+# 48 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_GIRL, 28, 16
+# 49 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_FAT_MAN, 29, 16
+# 50 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_MAN_1, 31, 14
+# 51 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_CAPT_STERN, MOVEMENT_TYPE_FACE_DOWN
+# 52 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_OLD_WOMAN, MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT
+# 53 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_RICH_BOY, MOVEMENT_TYPE_FACE_UP_AND_RIGHT
+# 54 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_COOK, MOVEMENT_TYPE_FACE_UP
+# 55 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_GIRL, MOVEMENT_TYPE_FACE_UP
+# 56 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_FAT_MAN, MOVEMENT_TYPE_FACE_UP
+# 57 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_MAN_1, MOVEMENT_TYPE_FACE_LEFT
+# 58 "data/maps/SlateportCity/scripts.pory"
 	return
 # 59 "data/maps/SlateportCity/scripts.pory"
 
@@ -60,15 +124,21 @@ SlateportCity_EventScript_SetReadyForScottScene::
 	getplayerxy VAR_0x8004, VAR_0x8005
 # 63 "data/maps/SlateportCity/scripts.pory"
 	goto_if_eq VAR_0x8004, 30, SlateportCity_EventScript_MoveScottLeft
-	setobjectxyperm LOCALID_SLATEPORT_SCOTT, 23, 27
-	setobjectmovementtype LOCALID_SLATEPORT_SCOTT, MOVEMENT_TYPE_FACE_RIGHT
+# 64 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_SCOTT, 23, 27
+# 65 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_RIGHT
+# 66 "data/maps/SlateportCity/scripts.pory"
 	return
 # 67 "data/maps/SlateportCity/scripts.pory"
 
 # 68 "data/maps/SlateportCity/scripts.pory"
 SlateportCity_EventScript_MoveScottLeft::
-	setobjectxyperm LOCALID_SLATEPORT_SCOTT, 22, 27
-	setobjectmovementtype LOCALID_SLATEPORT_SCOTT, MOVEMENT_TYPE_FACE_RIGHT
+# 69 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_SCOTT, 22, 27
+# 70 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_RIGHT
+# 71 "data/maps/SlateportCity/scripts.pory"
 	return
 # 72 "data/maps/SlateportCity/scripts.pory"
 
@@ -84,21 +154,29 @@ SlateportCity_OnFrame:
 SlateportCity_EventScript_ScottScene::
 # 78 "data/maps/SlateportCity/scripts.pory"
 	lockall
-	addobject LOCALID_SLATEPORT_SCOTT
-	applymovement LOCALID_PLAYER, SlateportCity_Movement_PlayerFaceScott
-	applymovement LOCALID_SLATEPORT_SCOTT, SlateportCity_Movement_ScottApproachPlayer
+# 79 "data/maps/SlateportCity/scripts.pory"
+	addobject LOCALID_SCOTT
+# 80 "data/maps/SlateportCity/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PlayerFaceScott
+# 81 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottApproachPlayer
+# 82 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 83 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_YouDroveTeamAquaAway, MSGBOX_DEFAULT
 # 84 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_SCOTT, Common_Movement_WalkInPlaceFasterLeft
+# 85 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_SCOTT, Common_Movement_WalkInPlaceFasterLeft
+# 86 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 87 "data/maps/SlateportCity/scripts.pory"
 	delay 60
 # 88 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_MaybeThisTrainer, MSGBOX_DEFAULT
-	applymovement LOCALID_SLATEPORT_SCOTT, Common_Movement_WalkInPlaceFasterRight
+# 89 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_SCOTT, Common_Movement_WalkInPlaceFasterRight
+# 90 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 91 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_LetsRegisterEachOther, MSGBOX_DEFAULT
@@ -122,11 +200,17 @@ SlateportCity_EventScript_ScottScene::
 	msgbox SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou, MSGBOX_DEFAULT
 # 101 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_SCOTT, SlateportCity_Movement_ScottExit
+# 102 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottExit
+# 103 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	removeobject LOCALID_SLATEPORT_SCOTT
-	setobjectxyperm LOCALID_SLATEPORT_SCOTT, 10, 12
-	setobjectmovementtype LOCALID_SLATEPORT_SCOTT, MOVEMENT_TYPE_FACE_DOWN
+# 104 "data/maps/SlateportCity/scripts.pory"
+	removeobject LOCALID_SCOTT
+# 105 "data/maps/SlateportCity/scripts.pory"
+	setobjectxyperm LOCALID_SCOTT, 10, 12
+# 106 "data/maps/SlateportCity/scripts.pory"
+	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_DOWN
+# 107 "data/maps/SlateportCity/scripts.pory"
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 # 108 "data/maps/SlateportCity/scripts.pory"
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 2
@@ -660,7 +744,9 @@ SlateportCity_EventScript_AquaGrunt1::
 	msgbox SlateportCity_Text_QuitPushing, MSGBOX_DEFAULT
 # 373 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_1, Common_Movement_FaceOriginalDirection
+# 374 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_1, Common_Movement_FaceOriginalDirection
+# 375 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 376 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -678,7 +764,9 @@ SlateportCity_EventScript_AquaGrunt2::
 	msgbox SlateportCity_Text_AquaHasPolicy, MSGBOX_DEFAULT
 # 383 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_2, Common_Movement_FaceOriginalDirection
+# 384 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_2, Common_Movement_FaceOriginalDirection
+# 385 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 386 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -696,7 +784,9 @@ SlateportCity_EventScript_AquaGrunt3::
 	msgbox SlateportCity_Text_BossIsBrilliant, MSGBOX_DEFAULT
 # 393 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_3, Common_Movement_FaceOriginalDirection
+# 394 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_3, Common_Movement_FaceOriginalDirection
+# 395 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 396 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -714,7 +804,9 @@ SlateportCity_EventScript_AquaGrunt4::
 	msgbox SlateportCity_Text_WhatsNewSchemeIWonder, MSGBOX_DEFAULT
 # 403 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_4, Common_Movement_FaceOriginalDirection
+# 404 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_4, Common_Movement_FaceOriginalDirection
+# 405 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 406 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -732,7 +824,9 @@ SlateportCity_EventScript_AquaGrunt5::
 	msgbox SlateportCity_Text_ShouldTakeItAll, MSGBOX_DEFAULT
 # 413 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_5, Common_Movement_FaceOriginalDirection
+# 414 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_5, Common_Movement_FaceOriginalDirection
+# 415 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 416 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -750,7 +844,9 @@ SlateportCity_EventScript_AquaGrunt6::
 	msgbox SlateportCity_Text_DontButtIn, MSGBOX_DEFAULT
 # 423 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_6, Common_Movement_FaceOriginalDirection
+# 424 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_6, Common_Movement_FaceOriginalDirection
+# 425 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 426 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -768,7 +864,9 @@ SlateportCity_EventScript_AquaGrunt7::
 	msgbox SlateportCity_Text_RemindsMeOfLongLineForGames, MSGBOX_DEFAULT
 # 433 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_7, Common_Movement_FaceOriginalDirection
+# 434 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_7, Common_Movement_FaceOriginalDirection
+# 435 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 436 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -786,7 +884,9 @@ SlateportCity_EventScript_AquaGrunt8::
 	msgbox SlateportCity_Text_WhyAreWeLiningUp, MSGBOX_DEFAULT
 # 443 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_8, Common_Movement_FaceOriginalDirection
+# 444 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_8, Common_Movement_FaceOriginalDirection
+# 445 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 446 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -802,37 +902,57 @@ SlateportCity_EventScript_AquaGrunt9::
 	faceplayer
 # 452 "data/maps/SlateportCity/scripts.pory"
 	playse SE_PIN
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_ExclamationMark
+# 453 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, Common_Movement_ExclamationMark
+# 454 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_Delay48
+# 455 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, Common_Movement_Delay48
+# 456 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 457 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_WhatDoYouWant, MSGBOX_DEFAULT
 # 458 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FaceOriginalDirection
+# 459 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, Common_Movement_FaceOriginalDirection
+# 460 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
+# 461 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
+# 462 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FacePlayer
+# 463 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, Common_Movement_FacePlayer
+# 464 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 465 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_IllReadSignForYou, MSGBOX_DEFAULT
 # 466 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FaceOriginalDirection
+# 467 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, Common_Movement_FaceOriginalDirection
+# 468 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
+# 469 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
+# 470 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 471 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_SaysSomethingLikeSeaIsEndless, MSGBOX_DEFAULT
 # 472 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FacePlayer
+# 473 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, Common_Movement_FacePlayer
+# 474 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
+# 475 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, SlateportCity_Movement_DelayAquaGrunt
+# 476 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_GRUNT_9, Common_Movement_FaceOriginalDirection
+# 477 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_9, Common_Movement_FaceOriginalDirection
+# 478 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 479 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -868,7 +988,9 @@ SlateportCity_EventScript_AquaGrunt11::
 	msgbox SlateportCity_Text_HotSpringsAfterOperation, MSGBOX_DEFAULT
 # 495 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GRUNT_11, Common_Movement_FaceOriginalDirection
+# 496 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GRUNT_11, Common_Movement_FaceOriginalDirection
+# 497 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 498 "data/maps/SlateportCity/scripts.pory"
 	release
@@ -1022,23 +1144,37 @@ SlateportCity_EventScript_CaptStern::
 	msgbox SlateportCity_Text_GabbyWonderfulThanksForInterview, MSGBOX_DEFAULT
 # 573 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_GABBY, Common_Movement_WalkInPlaceFasterRight
+# 574 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GABBY, Common_Movement_WalkInPlaceFasterRight
+# 575 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 576 "data/maps/SlateportCity/scripts.pory"
 	delay 10
-	applymovement LOCALID_SLATEPORT_TY, Common_Movement_WalkInPlaceFasterDown
+# 577 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_TY, Common_Movement_WalkInPlaceFasterDown
+# 578 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 579 "data/maps/SlateportCity/scripts.pory"
 	delay 25
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, SlateportCity_Movement_SternWatchGabbyAndTyExit
-	applymovement LOCALID_PLAYER, SlateportCity_Movement_PlayerFaceStern
-	applymovement LOCALID_SLATEPORT_GABBY, SlateportCity_Movement_GabbyExit
-	applymovement LOCALID_SLATEPORT_TY, SlateportCity_Movement_TyExit
+# 580 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_CAPT_STERN, SlateportCity_Movement_SternWatchGabbyAndTyExit
+# 581 "data/maps/SlateportCity/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PlayerFaceStern
+# 582 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_GABBY, SlateportCity_Movement_GabbyExit
+# 583 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_TY, SlateportCity_Movement_TyExit
+# 584 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	removeobject LOCALID_SLATEPORT_GABBY
-	removeobject LOCALID_SLATEPORT_TY
+# 585 "data/maps/SlateportCity/scripts.pory"
+	removeobject LOCALID_GABBY
+# 586 "data/maps/SlateportCity/scripts.pory"
+	removeobject LOCALID_TY
+# 587 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_SternWhewFirstInterview, MSGBOX_DEFAULT
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_WalkInPlaceFasterUp
+# 588 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_CAPT_STERN, Common_Movement_WalkInPlaceFasterUp
+# 589 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 590 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_OhPlayerWeMadeDiscovery, MSGBOX_DEFAULT
@@ -1046,23 +1182,37 @@ SlateportCity_EventScript_CaptStern::
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
 # 592 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_AquaWillAssumeControlOfSubmarine, MSGBOX_DEFAULT
-	applymovement LOCALID_SLATEPORT_COOK, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_SLATEPORT_FAT_MAN, Common_Movement_WalkInPlaceFasterLeft
-	applymovement LOCALID_SLATEPORT_OLD_WOMAN, SlateportCity_Movement_OldWomanConcern
-	applymovement LOCALID_SLATEPORT_RICH_BOY, Common_Movement_QuestionMark
-	applymovement LOCALID_SLATEPORT_MAN_1, SlateportCity_Movement_ManConcern
+# 593 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_COOK, Common_Movement_WalkInPlaceFasterLeft
+# 594 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_FAT_MAN, Common_Movement_WalkInPlaceFasterLeft
+# 595 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_OLD_WOMAN, SlateportCity_Movement_OldWomanConcern
+# 596 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_RICH_BOY, Common_Movement_QuestionMark
+# 597 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_MAN_1, SlateportCity_Movement_ManConcern
+# 598 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_WalkInPlaceFasterDown
+# 599 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_CAPT_STERN, Common_Movement_WalkInPlaceFasterDown
+# 600 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 601 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_SternWhatWasAllThat, MSGBOX_DEFAULT
 # 602 "data/maps/SlateportCity/scripts.pory"
 	playse SE_PIN
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_ExclamationMark
+# 603 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_CAPT_STERN, Common_Movement_ExclamationMark
+# 604 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_Delay48
+# 605 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_CAPT_STERN, Common_Movement_Delay48
+# 606 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, Common_Movement_WalkInPlaceFasterUp
+# 607 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_CAPT_STERN, Common_Movement_WalkInPlaceFasterUp
+# 608 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 609 "data/maps/SlateportCity/scripts.pory"
 	msgbox SlateportCity_Text_FromHarborTryingToTakeSub, MSGBOX_DEFAULT
@@ -1070,10 +1220,15 @@ SlateportCity_EventScript_CaptStern::
 	msgbox SlateportCity_Text_PleaseComeWithMe, MSGBOX_DEFAULT
 # 611 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_SLATEPORT_CAPT_STERN, SlateportCity_Movement_SternEnterHarbor
-	applymovement LOCALID_PLAYER, SlateportCity_Movement_PlayerEnterHarbor
+# 612 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_CAPT_STERN, SlateportCity_Movement_SternEnterHarbor
+# 613 "data/maps/SlateportCity/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PlayerEnterHarbor
+# 614 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	removeobject LOCALID_SLATEPORT_CAPT_STERN
+# 615 "data/maps/SlateportCity/scripts.pory"
+	removeobject LOCALID_CAPT_STERN
+# 616 "data/maps/SlateportCity/scripts.pory"
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
 # 617 "data/maps/SlateportCity/scripts.pory"
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
@@ -1623,15 +1778,21 @@ SlateportCity_EventScript_NotEnoughBerryPowder::
 SlateportCity_EventScript_ScottBattleTentScene::
 # 890 "data/maps/SlateportCity/scripts.pory"
 	lockall
-	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
+# 891 "data/maps/SlateportCity/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+# 892 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 893 "data/maps/SlateportCity/scripts.pory"
 	opendoor 10, 12
 # 894 "data/maps/SlateportCity/scripts.pory"
 	waitdooranim
-	addobject LOCALID_SLATEPORT_SCOTT
-	applymovement LOCALID_PLAYER, SlateportCity_Movement_PushPlayerDown
-	applymovement LOCALID_SLATEPORT_SCOTT, SlateportCity_Movement_ScottExitBattleTent
+# 895 "data/maps/SlateportCity/scripts.pory"
+	addobject LOCALID_SCOTT
+# 896 "data/maps/SlateportCity/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PushPlayerDown
+# 897 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottExitBattleTent
+# 898 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
 # 899 "data/maps/SlateportCity/scripts.pory"
 	closedoor 10, 12
@@ -1641,10 +1802,15 @@ SlateportCity_EventScript_ScottBattleTentScene::
 	msgbox SlateportCity_Text_TakingBattleTentChallenge, MSGBOX_DEFAULT
 # 902 "data/maps/SlateportCity/scripts.pory"
 	closemessage
-	applymovement LOCALID_PLAYER, SlateportCity_Movement_PlayerWatchScottExit
-	applymovement LOCALID_SLATEPORT_SCOTT, SlateportCity_Movement_ScottExitAfterBattleTent
+# 903 "data/maps/SlateportCity/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PlayerWatchScottExit
+# 904 "data/maps/SlateportCity/scripts.pory"
+	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottExitAfterBattleTent
+# 905 "data/maps/SlateportCity/scripts.pory"
 	waitmovement 0
-	removeobject LOCALID_SLATEPORT_SCOTT
+# 906 "data/maps/SlateportCity/scripts.pory"
+	removeobject LOCALID_SCOTT
+# 907 "data/maps/SlateportCity/scripts.pory"
 	addvar VAR_SCOTT_STATE, 1
 # 908 "data/maps/SlateportCity/scripts.pory"
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 3
@@ -2588,3 +2754,134 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "the perfect fit for the BATTLE TENT!\p"
 # 1378 "data/maps/SlateportCity/scripts.pory"
 	.string "Give it your best effort!$"
+
+Cats_Out_of_the_Bag::
+# 1382 "data/maps/SlateportCity/scripts.pory"
+	lockall
+# 1383 "data/maps/SlateportCity/scripts.pory"
+	goto_if_set FLAG_CATS_OUT_OF_THE_BAG_0x037, Cats_Out_of_the_Bag_1
+# 1395 "data/maps/SlateportCity/scripts.pory"
+	msgbox Cats_Out_of_the_Bag_Text_1
+# 1401 "data/maps/SlateportCity/scripts.pory"
+	startquest QUEST_10
+	return
+
+Cats_Out_of_the_Bag_1:
+# 1385 "data/maps/SlateportCity/scripts.pory"
+	msgbox Cats_Out_of_the_Bag_Text_0, MSGBOX_YESNO
+# 1387 "data/maps/SlateportCity/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq Cats_Out_of_the_Bag_5
+Cats_Out_of_the_Bag_4:
+# 1390 "data/maps/SlateportCity/scripts.pory"
+	compare VAR_RESULT, NO
+	goto_if_eq Cats_Out_of_the_Bag_7
+	return
+
+Cats_Out_of_the_Bag_5:
+# 1388 "data/maps/SlateportCity/scripts.pory"
+	call Cats_Out_of_the_Bag_Truth
+	goto Cats_Out_of_the_Bag_4
+
+Cats_Out_of_the_Bag_7:
+# 1391 "data/maps/SlateportCity/scripts.pory"
+	call Cats_Out_of_the_Bag_Lie
+	return
+
+
+Cats_Out_of_the_Bag_Lie::
+# 1406 "data/maps/SlateportCity/scripts.pory"
+	msgbox Cats_Out_of_the_Bag_Lie_Text_0
+# 1408 "data/maps/SlateportCity/scripts.pory"
+	setflag FLAG_LIED_0x038
+# 1409 "data/maps/SlateportCity/scripts.pory"
+	releaseall
+	return
+
+
+Cats_Out_of_the_Bag_Truth::
+# 1413 "data/maps/SlateportCity/scripts.pory"
+	msgbox Cats_Out_of_the_Bag_Truth_Text_0
+# 1416 "data/maps/SlateportCity/scripts.pory"
+	giveitem ITEM_AMULET_COIN
+# 1417 "data/maps/SlateportCity/scripts.pory"
+	giveitem ITEM_SOOTHE_BELL
+# 1418 "data/maps/SlateportCity/scripts.pory"
+	completequest QUEST_10
+	return
+
+
+Meowth::
+# 1422 "data/maps/SlateportCity/scripts.pory"
+	goto_if_set FLAG_LIED_0x038, Meowth_1
+# 1430 "data/maps/SlateportCity/scripts.pory"
+	msgbox Meowth_Text_1
+# 1433 "data/maps/SlateportCity/scripts.pory"
+	trainerbattle_single TRAINER_JESSIE_JAMES, JESSIE_JAMES_Intro, JESSIE_JAMES_Outro
+# 1434 "data/maps/SlateportCity/scripts.pory"
+	setflag FLAG_CATS_OUT_OF_THE_BAG_0x037
+# 1435 "data/maps/SlateportCity/scripts.pory"
+	msgbox Meowth_Text_2
+	return
+
+Meowth_1:
+# 1424 "data/maps/SlateportCity/scripts.pory"
+	msgbox Meowth_Text_0
+# 1426 "data/maps/SlateportCity/scripts.pory"
+	giveitem ITEM_RARE_CANDY, 10
+# 1427 "data/maps/SlateportCity/scripts.pory"
+	completequest QUEST_10
+	return
+
+
+Cats_Out_of_the_Bag_Text_0:
+# 1385 "data/maps/SlateportCity/scripts.pory"
+	.string "Oh my gosh I can't Believe you found it!\n"
+	.string "Was it true? Did that thieving cat take\l"
+	.string "it?$"
+
+Cats_Out_of_the_Bag_Text_1:
+# 1395 "data/maps/SlateportCity/scripts.pory"
+	.string "Please I need your help! My missing Gold\n"
+	.string "Locket is gone! Could you help me find\l"
+	.string "it please? Someone told me a talking\l"
+	.string "Meowth took it but I probably just lost\l"
+	.string "it somewhere. Please tell me if Meowth\l"
+	.string "took it I'll repay your efforts.$"
+
+Cats_Out_of_the_Bag_Lie_Text_0:
+# 1406 "data/maps/SlateportCity/scripts.pory"
+	.string "Hmm OK... Doesn't seem like something I'd\n"
+	.string "do but I trust you...$"
+
+Cats_Out_of_the_Bag_Truth_Text_0:
+# 1413 "data/maps/SlateportCity/scripts.pory"
+	.string "Oh thank you thank you so much! I can't\n"
+	.string "believe that thieving cat and those two\l"
+	.string "idiots. please take these as a token of\l"
+	.string "my appreciation.$"
+
+Meowth_Text_0:
+# 1424 "data/maps/SlateportCity/scripts.pory"
+	.string "You're not such a bad twerp after all.\n"
+	.string "Here.$"
+
+Meowth_Text_1:
+# 1430 "data/maps/SlateportCity/scripts.pory"
+	.string "A golden necklace? Yeah I have it right\n"
+	.string "here. This'll fetch a pretty penny for\l"
+	.string "the boss. If you want it back take it\l"
+	.string "back!$"
+
+Meowth_Text_2:
+# 1435 "data/maps/SlateportCity/scripts.pory"
+	.string "Please don't tell her I took it. If you\n"
+	.string "dont I'll give you something good!$"
+
+JESSIE_JAMES_Intro::
+# 1441 "data/maps/SlateportCity/scripts.pory"
+	.string "Prepare for trouble!$"
+
+JESSIE_JAMES_Outro::
+# 1445 "data/maps/SlateportCity/scripts.pory"
+	.string "We're blasting off again!.$"

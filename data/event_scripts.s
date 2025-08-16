@@ -1178,3 +1178,25 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/VenusaurGrotto/scripts.inc"
 
 	.include "data/maps/RelicCavern/scripts.inc"
+
+	.include "data/maps/Cave_of_Awakening4/scripts.inc"
+
+	.include "data/maps/CaveofAwakening/scripts.inc"
+
+	.include "data/maps/Cave_of_Awakening3/scripts.inc"
+
+	.include "data/maps/Cave_of_Awakening2/scripts.inc"
+
+	.include "data/maps/Links_Lab/scripts.inc"
+
+	.include "data/maps/Fishing_House/scripts.inc"
+
+	.include "data/maps/MT_PYRE_7F/scripts.inc"
+
+	.include "data/maps/FakeLittlerootHouse/scripts.inc"
+
+	.include "data/maps/FakeRoute101/scripts.inc"
+
+	.include "data/maps/Fake_Littleroot/scripts.inc"
+
+	.include "data/maps/FakeLittlerootRoom/scripts.inc"

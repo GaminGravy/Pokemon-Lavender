@@ -1,0 +1,170 @@
+mapscripts CaveofAwakening_MapScripts {}
+
+script Echoes_of_Evolution_Trigger {
+    lockall
+    applymovement(1, Trigger1Movement)
+    waitmovement(0)
+    msgbox(format("Welcome to the Cave of Awakening,
+    Pokemon come here to evolve. Pass the trial
+    and you'll earn relics to guide evolution. Fail,
+    and the cavern shall await your return. Will you
+    attempt the trial?"), MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Echoes_of_Evolution_Start)
+     }
+	if(var(VAR_RESULT) == NO){
+        call(Echoes_of_Evolution_Dont_Start)
+	}
+    end
+}
+
+script Echoes_of_Evolution_Start {
+    msgbox(format("Please show us your bond."))
+    setflag(FLAG_ECHOES_of_EVOLUTION_0x02D)
+    startquest(QUEST_5)
+    releaseall
+}
+
+script Echoes_of_Evolution_Dont_Start {
+    msgbox(format("Very well.
+    Please return when you and your pokemon
+    are ready."))
+    releaseall
+}
+
+movement Trigger1Movement {
+    walk_right * 3
+}
+
+script Echoes_of_Evolution_Restart {
+    lockall
+    msgbox(format("Are you finally ready to take the trial?"), MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Echoes_of_Evolution_Start)
+     }
+	if(var(VAR_RESULT) == NO){
+        call(Echoes_of_Evolution_Dont_Start)
+	}
+    end
+
+}
+
+script TR_SAND_ECH {
+    if(flag(FLAG_ECHOES_of_EVOLUTION_0x02D))
+    {
+        trainerbattle_single(TRAINER_SAND, TR_SAND_ECH_Intro, TR_SAND_ECH_Outro)
+	    msgbox (TR_SAND_ECH_PostBattle, MSGBOX_AUTOCLOSE)
+        trainerbattle_single(TRAINER_SAND, TR_SAND_ECH_Intro, TR_SAND_ECH_Outro)
+        setflag(FLAG_SAND_0x031)
+	    msgbox (TR_SAND_ECH_PostBattle, MSGBOX_AUTOCLOSE)
+    }
+	else{
+        msgbox(format("Please start the trial."))
+        releaseall
+    }
+	end
+}
+
+text TR_SAND_ECH_Intro {
+	"Don't get sand in your eyes!"
+}
+
+text TR_SAND_ECH_Outro {
+	"No fair I got sand in my eyes."
+}
+
+text TR_SAND_ECH_PostBattle {
+	"Move on to the next trial."
+	
+}
+
+script TR_RAIN_ECH {
+    if(flag(FLAG_SAND_0x031))
+    {
+        checkflag(FLAG_ECHOES_of_EVOLUTION_0x02D)
+	    trainerbattle_single(TRAINER_RAIN TR_RAIN_ECH_Intro, TR_RAIN_ECH_Outro)
+        setflag(FLAG_RAIN_0x032)
+	    msgbox (TR_RAIN_ECH_PostBattle, MSGBOX_AUTOCLOSE)
+    }
+    else{
+        msgbox(format("Please start the trial."))
+        releaseall
+    }
+	end
+}
+
+text TR_RAIN_ECH_Intro {
+	"Don't drown in our awesomeness!"
+}
+
+text TR_RAIN_ECH_Outro {
+	"You swamped me."
+}
+
+text TR_RAIN_ECH_PostBattle {
+	"Move on to the next trial."
+}
+
+script TR_SNOW_ECH {
+    if(flag(FLAG_RAIN_0x032))
+    {
+        checkflag(FLAG_ECHOES_of_EVOLUTION_0x02D)
+	    trainerbattle_single(TRAINER_SNOW, TR_SNOW_ECH_Intro, TR_SNOW_ECH_Outro)
+        setflag(FLAG_SNOW_0x033)
+	    msgbox (TR_SNOW_ECH_PostBattle, MSGBOX_AUTOCLOSE)
+    }
+    else{
+        msgbox(format("Please start the trial."))
+        releaseall
+    }
+	end
+}
+
+text TR_SNOW_ECH_Intro {
+	"Careful not to get frostbitten!"
+}
+
+text TR_SNOW_ECH_Outro {
+	"I need some more layers on."
+}
+
+text TR_SNOW_ECH_PostBattle {
+	"Move on to the next trial."
+}
+
+script TR_SUN_ECH {
+    if(flag(FLAG_SNOW_0x033))
+    {
+        checkflag(FLAG_ECHOES_of_EVOLUTION_0x02D)
+	    trainerbattle_single(TRAINER_SUN, TR_SUN_ECH_Intro, TR_SUN_ECH_Outro)
+	    call(Echoes_of_Evolution_Complete)
+    }
+    else{
+        msgbox(format("Please start the trial"))
+    }
+	end
+}
+
+text TR_SUN_ECH_Intro {
+	"Can you handle the heat?"
+}
+
+text TR_SUN_ECH_Outro {
+	"Wheres the thermostat?"
+}
+
+script Echoes_of_Evolution_Complete {
+    msgbox(format("You've done well to complete these trials for braving
+    the challenge and coming out on top I will give you these rewards."))
+    giveitem(ITEM_FIRE_STONE)
+    giveitem(ITEM_WATER_STONE)
+    giveitem(ITEM_THUNDER_STONE)
+    giveitem(ITEM_LEAF_STONE)
+    giveitem(ITEM_MOON_STONE)
+    giveitem(ITEM_SUN_STONE)
+    giveitem(ITEM_SHINY_STONE)
+    giveitem(ITEM_DUSK_STONE)
+    giveitem(ITEM_DAWN_STONE)
+    giveitem(ITEM_ICE_STONE)
+    completequest(QUEST_5)
+}

@@ -4510,6 +4510,116 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/RelicCavern/border.bin",
       "blockdata_filepath": "data/layouts/RelicCavern/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_OF_AWAKENING2",
+      "name": "Cave_of_Awakening2_Layout",
+      "width": 10,
+      "height": 15,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Cave_of_Awakening2/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_of_Awakening2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_OF_AWAKENING3",
+      "name": "Cave_of_Awakening3_Layout",
+      "width": 10,
+      "height": 15,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Cave_of_Awakening3/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_of_Awakening3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVEOF_AWAKENING",
+      "name": "CaveofAwakening_Layout",
+      "width": 10,
+      "height": 15,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/CaveofAwakening/border.bin",
+      "blockdata_filepath": "data/layouts/CaveofAwakening/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAVE_OF_AWAKENING4",
+      "name": "Cave_of_Awakening4_Layout",
+      "width": 10,
+      "height": 15,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/Cave_of_Awakening4/border.bin",
+      "blockdata_filepath": "data/layouts/Cave_of_Awakening4/map.bin"
+    },
+    {
+      "id": "LAYOUT_LINKS_LAB",
+      "name": "Links_Lab_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/Links_Lab/border.bin",
+      "blockdata_filepath": "data/layouts/Links_Lab/map.bin"
+    },
+    {
+      "id": "LAYOUT_FISHING_HOUSE",
+      "name": "Fishing_House_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Fishing_House/border.bin",
+      "blockdata_filepath": "data/layouts/Fishing_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_PYRE_7F",
+      "name": "MT_PYRE_7F_Layout",
+      "width": 7,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/MT_PYRE_7F/border.bin",
+      "blockdata_filepath": "data/layouts/MT_PYRE_7F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FAKE_LITTLEROOT",
+      "name": "Fake_Littleroot_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Fake_Littleroot/border.bin",
+      "blockdata_filepath": "data/layouts/Fake_Littleroot/map.bin"
+    },
+    {
+      "id": "LAYOUT_FAKE_ROUTE101",
+      "name": "FakeRoute101_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/FakeRoute101/border.bin",
+      "blockdata_filepath": "data/layouts/FakeRoute101/map.bin"
+    },
+    {
+      "id": "LAYOUT_FAKE_LITTLEROOT_HOUSE",
+      "name": "FakeLittlerootHouse_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/FakeLittlerootHouse/border.bin",
+      "blockdata_filepath": "data/layouts/FakeLittlerootHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_FAKE_LITTLEROOT_ROOM",
+      "name": "FakeLittlerootRoom_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/FakeLittlerootRoom/border.bin",
+      "blockdata_filepath": "data/layouts/FakeLittlerootRoom/map.bin"
     }
   ]
 }

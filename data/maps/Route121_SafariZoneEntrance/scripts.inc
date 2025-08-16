@@ -20,7 +20,9 @@ Route121_SafariZoneEntrance_OnFrame:
 Route121_SafariZoneEntrance_EventScript_ExitSafariZone::
 # 11 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	lockall
-	applymovement LOCALID_PLAYER, Route121_SafariZoneEntrance_Movement_ExitSafariZone
+# 12 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Route121_SafariZoneEntrance_Movement_ExitSafariZone
+# 13 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	waitmovement 0
 # 14 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	setvar VAR_SAFARI_ZONE_STATE, 0
@@ -92,7 +94,9 @@ Route121_SafariZoneEntrance_EventScript_FirstTimeInfo::
 Route121_SafariZoneEntrance_EventScript_EntranceCounterTrigger::
 # 48 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	lockall
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+# 49 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+# 50 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	waitmovement 0
 # 51 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	showmoneybox 0, 0
@@ -142,7 +146,9 @@ Route121_SafariZoneEntrance_EventScript_TryEnterSafariZone::
 	closemessage
 # 74 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	hidemoneybox
-	applymovement LOCALID_PLAYER, Route121_SafariZoneEntrance_Movement_EnterSafariZone
+# 75 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Route121_SafariZoneEntrance_Movement_EnterSafariZone
+# 76 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	waitmovement 0
 # 77 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	special EnterSafariMode
@@ -208,7 +214,9 @@ Route121_SafariZoneEntrance_EventScript_MovePlayerBackFromCounter::
 	closemessage
 # 108 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	hidemoneybox
-	applymovement LOCALID_PLAYER, Route121_SafariZoneEntrance_Movement_BackAwayFromCounter
+# 109 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Route121_SafariZoneEntrance_Movement_BackAwayFromCounter
+# 110 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	waitmovement 0
 # 111 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	releaseall
@@ -252,3 +260,48 @@ Route121_SafariZoneEntrance_EventScript_TrainerTipSign::
 	msgbox Route121_SafariZoneEntrance_Text_TrainerTip, MSGBOX_SIGN
 # 131 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	end
+
+Whispers_of_The_White_Fox::
+# 135 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	lockall
+# 136 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	goto_if_set FLAG_WHITE_FOX_0x035, Whispers_of_The_White_Fox_1
+# 149 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	msgbox Whispers_of_The_White_Fox_Text_1
+# 156 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	startquest QUEST_7
+	return
+
+Whispers_of_The_White_Fox_1:
+# 138 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	msgbox Whispers_of_The_White_Fox_Text_0
+# 141 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	completequest QUEST_7
+# 142 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	giveitem ITEM_SILK_SCARF
+# 143 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	giveitem ITEM_SPELL_TAG
+# 144 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	giveitem ITEM_CHOICE_SCARF
+# 145 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	giveitem ITEM_CHOICE_BAND
+# 146 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	giveitem ITEM_CHOICE_SPECS
+	return
+
+
+Whispers_of_The_White_Fox_Text_0:
+# 138 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	.string "Thank you for your help. These poachers\n"
+	.string "are always up to no good I'm sure Zorua\l"
+	.string "thanks you dearly.$"
+
+Whispers_of_The_White_Fox_Text_1:
+# 149 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+	.string "Young trainer, this area is a\n"
+	.string "preservation zone of Pokemon found in\l"
+	.string "their native lands, all here. In one\l"
+	.string "place. There have been some sightings\l"
+	.string "of a white fox. Humans try to hunt it to\l"
+	.string "gather intel on its abilities. Please\l"
+	.string "protect it.$"

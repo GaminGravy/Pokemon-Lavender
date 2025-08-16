@@ -304,37 +304,41 @@ Quest_Bulbasaur::
 # 169 "data/maps/Route102/scripts.pory"
 	waitmoncry
 # 170 "data/maps/Route102/scripts.pory"
-	applymovement 14, BulbasaurLeave
+	setflag FLAG_REMOVE_BULBASAUR_0x02E
 # 171 "data/maps/Route102/scripts.pory"
-	waitmovement 0
+	applymovement 14, BulbasaurLeave
 # 172 "data/maps/Route102/scripts.pory"
-	removeobject 15
+	waitmovement 0
 # 173 "data/maps/Route102/scripts.pory"
-	setflag FLAG_QUEST_BULBASAUR_0x02B
+	removeobject 14
 # 174 "data/maps/Route102/scripts.pory"
+	setflag FLAG_QUEST_BULBASAUR_0x02B
+# 175 "data/maps/Route102/scripts.pory"
 	releaseall
 	return
 
 
-# 177 "data/maps/Route102/scripts.pory"
-BulbasaurLeave:
 # 178 "data/maps/Route102/scripts.pory"
+BulbasaurLeave:
+# 179 "data/maps/Route102/scripts.pory"
 	face_right
-# 179 "data/maps/Route102/scripts.pory"
-	walk_right
-# 179 "data/maps/Route102/scripts.pory"
+# 180 "data/maps/Route102/scripts.pory"
 	walk_right
 # 180 "data/maps/Route102/scripts.pory"
+	walk_right
+# 181 "data/maps/Route102/scripts.pory"
 	walk_down
-# 181 "data/maps/Route102/scripts.pory"
+# 182 "data/maps/Route102/scripts.pory"
 	walk_right
-# 181 "data/maps/Route102/scripts.pory"
+# 182 "data/maps/Route102/scripts.pory"
 	walk_right
-# 181 "data/maps/Route102/scripts.pory"
+# 182 "data/maps/Route102/scripts.pory"
 	walk_right
-# 181 "data/maps/Route102/scripts.pory"
+# 182 "data/maps/Route102/scripts.pory"
 	walk_right
-# 181 "data/maps/Route102/scripts.pory"
+# 182 "data/maps/Route102/scripts.pory"
+	walk_right
+# 182 "data/maps/Route102/scripts.pory"
 	walk_right
 	step_end
 

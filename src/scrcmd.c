@@ -3357,3 +3357,25 @@ void Script_EndTrainerCanSeeIf(struct ScriptContext *ctx)
     if (ctx->breakOnTrainerBattle && sScriptConditionTable[condition][ctx->comparisonResult] == 1)
         StopScript(ctx);
 }
+
+bool8 ScrCmd_debugprint(struct ScriptContext *ctx)
+{
+    u16 num;
+    const u8 *str = (const u8*)ScriptReadWord(ctx);
+    u16 numOrVar = ScriptReadHalfword(ctx);
+
+    if (str != NULL)
+    {
+        if (numOrVar != 65535)
+        {
+            num = VarGet(numOrVar);
+            DebugPrintfLevel(MGBA_LOG_INFO, "%S, %u", str, num);
+        }
+        else
+        {
+            DebugPrintfLevel(MGBA_LOG_WARN, "%S", str);
+        }
+    }
+    return FALSE;
+}
+

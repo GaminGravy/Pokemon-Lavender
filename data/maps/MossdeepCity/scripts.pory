@@ -435,3 +435,15 @@ MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "mentored WALLACE.$"
 
 `
+script Glimmer_Beneath_the_Surface {
+	msgbox(format("Have you heard of chain fishing?
+	Chain fishing is an activity that if you reel
+	in Pokemon after Pokemon the chances of you reeling
+	in a different colored Pokemon are raised exponentially.
+	Find a shiny Pokemon and show it to me. I'll make it
+	worth your while.
+	An old rod will fish up Magikarp
+	A good rod will fish up Feebas
+	A super rod will fish up Lapras."))
+	startquest(QUEST_8)
+}

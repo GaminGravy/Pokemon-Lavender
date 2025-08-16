@@ -1,0 +1,40 @@
+mapscripts Links_Lab_MapScripts {}
+
+script Bound_by_Trade {
+    lockall
+    msgbox(format("Hello my name is Proffesor Link.
+    My job is to research Pokemon trade evolution.
+    The problem is that I'm far too weak to go out and look at pokemon
+    that evolve in such ways. Would you be willing to show me a
+    Machop, Abra, and a Geodude?"), MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        startquest(QUEST_6)
+        checkspecies(SPECIES_MACHOP, OPEN_PARTY_SCREEN)
+        checkspecies(SPECIES_ABRA, OPEN_PARTY_SCREEN)
+        checkspecies(SPECIES_GEODUDE, OPEN_PARTY_SCREEN)
+        msgbox(format("Thank you seeing these pokemon will help with my research
+        immensely. Let me repay your hard work with some tokens of my appreciation."))
+        giveitem(ITEM_DEEP_SEA_SCALE)
+        giveitem(ITEM_DEEP_SEA_TOOTH)
+        giveitem(ITEM_DRAGON_SCALE)
+        giveitem(ITEM_DUBIOUS_DISC)
+        giveitem(ITEM_ELECTIRIZER)
+        giveitem(ITEM_MAGMARIZER)
+        giveitem(ITEM_KINGS_ROCK)
+        giveitem(ITEM_METAL_COAT)
+        giveitem(ITEM_PRISM_SCALE)
+        giveitem(ITEM_PROTECTOR)
+        giveitem(ITEM_REAPER_CLOTH)
+        giveitem(ITEM_SACHET)
+        giveitem(ITEM_UPGRADE)
+        giveitem(ITEM_WHIPPED_DREAM)
+        giveitem(ITEM_LINKING_CORD)
+        giveitem(ITEM_LINKING_CORD)
+        giveitem(ITEM_LINKING_CORD)
+        completequest(QUEST_6)
+     }
+	if(var(VAR_RESULT) == NO){
+        msgbox(format("I really need my grant..."))
+        releaseall
+	}
+}

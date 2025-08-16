@@ -216,7 +216,7 @@ static void SetQuestIconOnObject(struct ObjectEvent*);
 static const u32 sQuestMenuTiles[] =
         INCBIN_U32("graphics/quest_menu/menu.4bpp.lz");
 static const u32 sQuestMenuBgPals[] =
-        INCBIN_U32("graphics/quest_menu/menu.gbapal.lz");
+        INCBIN_U32("graphics/quest_menu/menu.gbapal");
 static const u32 sQuestMenuTilemap[] =
         INCBIN_U32("graphics/quest_menu/menu.bin.lz");
 
@@ -1282,7 +1282,7 @@ static bool8 LoadGraphics(void)
 			}
 			break;
 		case 2:
-			LoadCompressedPalette(sQuestMenuBgPals, 0x00, 0x60);
+			LoadPalette(sQuestMenuBgPals, 0x00, 0x60);
 			sStateDataPtr->data[0]++;
 			break;
 		case 3:

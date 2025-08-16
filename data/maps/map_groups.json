@@ -92,14 +92,19 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "Fishing_House",
+    "FakeLittlerootRoom"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
     "LittlerootTown_BrendansHouse_2F",
     "LittlerootTown_MaysHouse_1F",
     "LittlerootTown_MaysHouse_2F",
-    "LittlerootTown_ProfessorBirchsLab"
+    "LittlerootTown_ProfessorBirchsLab",
+    "FakeLittlerootHouse",
+    "Fake_Littleroot",
+    "FakeRoute101"
   ],
   "gMapGroup_IndoorOldale": [
     "OldaleTown_House1",
@@ -133,7 +138,8 @@
     "FallarborTown_PokemonCenter_1F",
     "FallarborTown_PokemonCenter_2F",
     "FallarborTown_CozmosHouse",
-    "FallarborTown_MoveRelearnersHouse"
+    "FallarborTown_MoveRelearnersHouse",
+    "Links_Lab"
   ],
   "gMapGroup_IndoorVerdanturf": [
     "VerdanturfTown_BattleTentLobby",
@@ -439,7 +445,12 @@
     "BeedrillGrotto",
     "HeracrossGrotto",
     "VenusaurGrotto",
-    "RelicCavern"
+    "RelicCavern",
+    "CaveofAwakening",
+    "Cave_of_Awakening2",
+    "Cave_of_Awakening3",
+    "Cave_of_Awakening4",
+    "MT_PYRE_7F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

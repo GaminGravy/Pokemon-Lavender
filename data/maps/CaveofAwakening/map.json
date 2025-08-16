@@ -1,0 +1,73 @@
+{
+  "id": "MAP_CAVEOF_AWAKENING",
+  "name": "CaveofAwakening",
+  "layout": "LAYOUT_CAVEOF_AWAKENING",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region_map_section": "MAPSEC_ROUTE_111",
+  "requires_flash": false,
+  "weather": "WEATHER_SANDSTORM",
+  "map_type": "MAP_TYPE_OCEAN_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
+      "x": 1,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_QUEST_GIVER",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Echoes_of_Evolution_Restart",
+      "flag": "0",
+      "questID": 1
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TR_SAND_ECH",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_CAVE_OF_AWAKENING2",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE111",
+      "dest_warp_id": "5"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_ECHOES_OF_EVOLUTION_0x40F9",
+      "var_value": "0",
+      "script": "Echoes_of_Evolution_Trigger"
+    }
+  ],
+  "bg_events": []
+}

@@ -118,7 +118,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: No
+Battle Type: Singles
 AI: Check Bad Move
 
 Quagsire
@@ -19427,17 +19427,17 @@ Double Battle: No
 AI: Check Bad Move
 
 Blissey
-Level: 30
+Level: 40
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
 Blissey
-Level: 30
+Level: 40
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
 Blissey
-Level: 30
+Level: 40
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
@@ -19451,17 +19451,17 @@ Double Battle: No
 AI: Check Bad Move
 
 Blissey
-Level: 40
+Level: 70
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
 Blissey
-Level: 40
+Level: 70
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
 Blissey
-Level: 40
+Level: 70
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
@@ -19475,27 +19475,27 @@ Double Battle: No
 AI: Check Bad Move
 
 Blissey
-Level: 60
+Level: 80
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
 Blissey
-Level: 60
+Level: 80
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
 Blissey
-Level: 60
+Level: 80
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
 Blissey
-Level: 60
+Level: 80
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
 Blissey
-Level: 60
+Level: 80
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
 
@@ -19571,3 +19571,274 @@ Blissey
 Level: 100
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Memento
+
+=== TRAINER_SAND ===
+Name: SAND
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Boldore
+Ability : Sturdy
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Slide
+- Iron Defense
+- Protect
+- Stealth Rock
+
+Ferroseed
+Ability : Iron Barbs
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bullet Seed
+- Iron Defense
+- Leech Seed
+- Protect
+
+Gible
+Ability : Sand Veil
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Dragon Breath
+- Bulldoze
+- Sand Tomb
+- Bite
+
+Nosepass
+Ability : Sturdy
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Tomb
+- Thunder Wave
+- Iron Defense
+- Block
+
+Sandshrew_Alola
+Ability : Slush Rush
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Metal Claw
+- Dig
+- Ice Ball
+- Rapid Spin
+
+=== TRAINER_RAIN ===
+Name: RAIN
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Lanturn
+Ability : Volt Absorb
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Surf
+- Thunder
+- Confuse Ray
+- Protect
+
+Pelipper
+Ability : Keen Eye
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Surf
+- Ice Beam
+- Knock Off
+- Protect
+
+Ludicolo
+Ability : Swift Swim
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Surf
+- Giga Drain
+- Ice Beam
+- Fake Out
+
+Seaking
+Ability : Swift Swim
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Waterfall
+- Return
+- Agility
+- Horn Attack
+
+Magneton
+Ability : Magnet Pull
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunder
+- Flash Cannon
+- Thunder Wave
+- Protect
+
+=== TRAINER_SNOW ===
+Name: SNOW
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Glalie
+Ability : Inner Focus
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Ice Beam
+- Crunch
+- Protect
+- Toxic
+
+Sealeo
+Ability : Thick Fat
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Aurora Beam
+- Body Slam
+- Encore
+- Protect
+
+Snorunt
+Ability : Inner Focus
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Ice Shard
+- Bite
+- Double Team
+- Protect
+
+Delibird
+Ability : Hustle
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Aerial Ace
+- Ice Punch
+- Rapid Spin
+- Fake Out
+
+Sneasel
+Ability : Inner Focus
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Ice Punch
+- Bite
+- Brick Break
+- Quick Attack
+
+=== TRAINER_SUN ===
+Name: SUN
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Magmar
+Ability : Flame Body
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Flamethrower
+- Smokescreen
+- Will-O-Wisp
+- Protect
+
+Gloom
+Ability : Chlorophyll
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Solar Beam
+- Sleep Powder
+- Acid
+- Moonlight
+
+Camerupt
+Ability : Magma Armor
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Flamethrower
+- Rock Slide
+- Earth Power
+- Protect
+
+Tangela
+Ability : Chlorophyll
+Level: 26
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Solar Beam
+- Stun Spore
+- Ancient Power
+- Leech Seed
+
+Combusken
+Ability : Blaze
+Level: 27
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Flame Wheel
+- Double Kick
+- Rock Tomb
+- Swords Dance
+
+=== TRAINER_EXP_8 ===
+Name: EXP_8
+Class: Gentleman
+Pic: Gentleman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Blissey
+Level: 60
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Memento
+
+Blissey
+Level: 60
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Memento
+
+Blissey
+Level: 60
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Memento
+
+Blissey
+Level: 60
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Memento
+
+=== TRAINER_JESSIE_JAMES ===
+Name: MEOWTH
+Class: Gentleman
+Pic: Gentleman
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move
+
+Arbok
+Level: 22
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Weezing
+Level: 20
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Meowth
+Level: 22
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Wobbuffet
+Level: 20
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+

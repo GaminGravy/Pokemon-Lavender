@@ -676,6 +676,13 @@
       "elevation": 0,
       "dest_map": "MAP_TRAINER_HILL_ENTRANCE",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 31,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_CAVEOF_AWAKENING",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [
