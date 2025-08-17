@@ -82,7 +82,7 @@ script TR_RAIN_ECH {
     if(flag(FLAG_SAND_0x031))
     {
         checkflag(FLAG_ECHOES_of_EVOLUTION_0x02D)
-	    trainerbattle_single(TRAINER_RAIN TR_RAIN_ECH_Intro, TR_RAIN_ECH_Outro)
+	    trainerbattle_single(TRAINER_RAIN, TR_RAIN_ECH_Intro, TR_RAIN_ECH_Outro)
         setflag(FLAG_RAIN_0x032)
 	    msgbox (TR_RAIN_ECH_PostBattle, MSGBOX_AUTOCLOSE)
     }
